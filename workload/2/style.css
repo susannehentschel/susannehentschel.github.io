@@ -2,7 +2,10 @@ p {
     font-family: Arial;
 }
 
-<title>Vacation World</title> 
 h1 {
     color: maroon;
+}
+
+.title {
+    color: teal;
 }

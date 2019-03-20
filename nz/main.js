@@ -19,3 +19,8 @@ karte.setView(
 
 //openstreetmap einbauen - s= server, z= zoom, x=laenge, y=breite
 L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png").addTo(karte);
+
+//Positionsmarker setzen
+let pin = L.marker(
+[breite,laenge]
+).addTo(karte);

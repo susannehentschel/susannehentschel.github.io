@@ -1,6 +1,7 @@
 body {
     max-width: 1280px;
     margin: auto;
+    font-family: "Open Sans";
 }
 header {
     text-align: center;
@@ -29,4 +30,35 @@ header h4 {
     border: 4px solid white;
     border-radius: 50%;
     margin-top: -50px;
+}
+.author a {
+    color: grey;
+}
+main {
+    width: 70%;
+    margin: auto;
+}
+
+main figure {
+  margin-left: 0;
+}
+main figcaption {
+    float: left;
+    margin-left: -12em;
+    width: 11.5em;
+}
+main figure img {
+    width: 90%;
+}
+#map {
+    height: 360px;
+    width: 90%;
+    border: 1px solid black;
+}
+
+.back {
+    float: left;
+}
+.next {
+    float: right;
 }

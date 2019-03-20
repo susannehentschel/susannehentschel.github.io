@@ -24,3 +24,6 @@ L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png").addTo(karte);
 let pin = L.marker(
 [breite,laenge]
 ).addTo(karte);
+
+//Popup zum Pin hängen
+pin.bindPopup(titel);

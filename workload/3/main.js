@@ -1,2 +1,4 @@
-let changeMe = false;
-console.log(changeMe);
+const entree = 'Enchiladas';
+console.log(entree);
+
+entree = 'Tacos';

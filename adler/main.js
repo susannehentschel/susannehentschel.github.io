@@ -40,30 +40,6 @@ let pin2 = L.marker(
 //Popup zum zweiten Pin
 pin2.bindPopup(titel2).openPopup();
 
-const adlerblicke = [
-    {
-        kunde: "Wilder Kaiser",
-        standort: "Gruttenhütte",
-        seehoehe: 1640,
-        lat: 47.55564,
-        lng: 12.31467
-    },
-    {
-        kunde: "Bergbahn Scheffau",
-        standort: "Brandstadl",
-        seehoehe: 1640,
-        lat: 47.4912,
-        lng: 12.248
-    },
-    {
-        kunde: "Lechtal Toursimus",
-        standort: "Sonnalm Jöchelspitze",
-        seehoehe: 1786,
-        lat: 47.41028,
-        lng: 10.60083
-    }
-    
-];
 for (let blick of adlerblicke) {
     console.log(blick);
     let blickpin = L.marker(

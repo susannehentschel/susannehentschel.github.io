@@ -15,12 +15,6 @@ const titel2 = div.getAttribute("data-title2");
 let karte = L.map("map");
 // console.log(karte);
 
-// auf Ausschnitt zoomen
-karte.setView(
-    [47.2, 11.2],
-    8
-);
-
 //openstreetmap einbauen - s= server, z= zoom, x=laenge, y=breite
 L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png").addTo(karte);
 
@@ -40,14 +34,19 @@ let pin2 = L.marker(
 //Popup zum zweiten Pin
 pin2.bindPopup(titel2).openPopup();
 
+let blickeGruppe = L.featureGroup().addTo(karte);
+
 for (let blick of ADLERBLICKE) {
     console.log(blick);
     let blickpin = L.marker(
         [blick.lat, blick.lng]
-    ).addTo(karte);
+    ).addTo(blickeGruppe);
     blickpin.bindPopup(
         `<h1>Standort ${blick.standort}</h1>
          <p>Höhe: ${blick.seehoehe} m</p>
          <em>Kunde: ${blick.kunde}</em>`
     );
 }
+console.log(blickeGruppe.getBounds());
+//Auf Ausschnitt zoomen
+karte.fitBounds(blickeGruppe.getBounds());

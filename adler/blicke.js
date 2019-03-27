@@ -1,4 +1,4 @@
-const adlerblicke = [
+const ADLERBLICKE = [
     {
         "kunde": "Wilder Kaiser ", 
         "standort": "Gruttenhütte", 

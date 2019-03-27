@@ -40,7 +40,7 @@ let pin2 = L.marker(
 //Popup zum zweiten Pin
 pin2.bindPopup(titel2).openPopup();
 
-for (let blick of adlerblicke) {
+for (let blick of ADLERBLICKE) {
     console.log(blick);
     let blickpin = L.marker(
         [blick.lat, blick.lng]

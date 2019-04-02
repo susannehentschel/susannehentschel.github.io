@@ -13,8 +13,8 @@ let karte = L.map("map");
 
 // auf Ausschnitt zoomen
 karte.setView(
- [breite, laenge],
- 13 
+    [breite, laenge],
+    13
 );
 
 //openstreetmap einbauen - s= server, z= zoom, x=laenge, y=breite
@@ -22,7 +22,7 @@ L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png").addTo(karte);
 
 //Positionsmarker setzen
 let pin = L.marker(
-[breite,laenge]
+    [breite, laenge]
 ).addTo(karte);
 
 //Popup zum Pin hängen

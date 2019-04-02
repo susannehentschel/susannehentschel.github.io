@@ -13,7 +13,7 @@ const titel2 = div.getAttribute("data-title2");
 
 // Karte initialisieren
 let karte = L.map("map");
-// console.log(karte);
+//console.log(karte);
 
 //openstreetmap einbauen - s= server, z= zoom, x=laenge, y=breite
 L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png").addTo(karte);
@@ -47,6 +47,6 @@ for (let blick of ADLERBLICKE) {
          <em>Kunde: ${blick.kunde}</em>`
     );
 }
-console.log(blickeGruppe.getBounds());
+//console.log(blickeGruppe.getBounds());
 //Auf Ausschnitt zoomen
 karte.fitBounds(blickeGruppe.getBounds());

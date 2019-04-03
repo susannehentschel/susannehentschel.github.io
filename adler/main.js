@@ -115,3 +115,6 @@ karte.fitBounds(blickeGruppe.getBounds());
 
 //Fullscreen Befehl
 karte.addControl(new L.Control.Fullscreen());
+
+//Position Karte für Link
+var hash = new L.Hash(karte);

@@ -118,3 +118,10 @@ karte.addControl(new L.Control.Fullscreen());
 
 //Position Karte für Link
 var hash = new L.Hash(karte);
+
+//Mit Mausklick Koordinaten anzeigen lassen
+var coords = new L.Control.Coordinates();
+coords.addTo(karte);
+karte.on('click', function(e) {
+	coords.setCoordinates(e);
+});

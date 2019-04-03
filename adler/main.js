@@ -112,3 +112,6 @@ for (let blick of ADLERBLICKE) {
 //console.log(blickeGruppe.getBounds());
 //Auf Ausschnitt zoomen
 karte.fitBounds(blickeGruppe.getBounds());
+
+//Fullscreen Befehl
+karte.addControl(new L.Control.Fullscreen());

@@ -28,8 +28,8 @@ const kartenLayer = {
 
 //openstreetmap einbauen - s= server, z= zoom, x=laenge, y=breite
 
-kartenLayer.osm.addTo(karte);
-//kartenLayer.geolandbasemap.addTo(karte);
+//kartenLayer.osm.addTo(karte);
+kartenLayer.geolandbasemap.addTo(karte);
 
 //Positionsmarker setzen
 let pin1 = L.marker(

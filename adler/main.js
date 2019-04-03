@@ -48,6 +48,18 @@ const kartenLayer = {
         subdomains: ["maps", "maps1", "maps2", "maps2", "maps4"],
         attribution: 'Datenquelle: <a href="https://www.basemap.at">basemap.at</a>'
     }),
+    stamen_toner: L.tileLayer("https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png", {
+        subdomains: ["a", "b", "c"],
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+    }),
+    stamen_terrain: L.tileLayer("http://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg", {
+        subdomains: ["a", "b", "c"],
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
+    }),
+    stamen_watercolor: L.tileLayer("http:////stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg", {
+        subdomains: ["a", "b", "c"],
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
+    }),
 };
 
 //Auswahlmenü hinzufügen
@@ -59,7 +71,10 @@ L.control.layers({
     "Geoland basemap high DPI": kartenLayer.bmaphidpi,
     "Geoland basemap Orthofoto 30cm": kartenLayer.bmaporthofoto30cm,
     "Geoland basemap Gelände": kartenLayer.bmapgelaende,
-    "Geoland basemap Oberfläche": kartenLayer.bmapoberflaeche
+    "Geoland basemap Oberfläche": kartenLayer.bmapoberflaeche,
+    "Stamen Toner" : kartenLayer.stamen_toner,
+    "Stamen Terrain" : kartenLayer.stamen_terrain,
+    "Stamen Watercolor" : kartenLayer.stamen_watercolor
 }).addTo(karte);
 
 kartenLayer.osm.addTo(karte);

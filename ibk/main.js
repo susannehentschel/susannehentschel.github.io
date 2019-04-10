@@ -1,8 +1,10 @@
+//Skript für Innsbruck
 const div = document.getElementById("map");
 const breite = div.getAttribute("data-lat");
 const laenge = div.getAttribute("data-lng");
 const titel = div.getAttribute("data-title");
 
+//Karte initialisieren
 let karte = L.map("map");
 
 const kartenLayer = {
@@ -67,10 +69,10 @@ L.control.layers({
     "Stamen Watercolor" : kartenLayer.stamen_watercolor
 }).addTo(karte);
 
+//OpenStreetMap zur Karte hinzufügen und anzeigen lassen
 kartenLayer.osm.addTo(karte);
 
-
-
+//Auf Auschnitt zoomen
 karte.setView(
     [breite, laenge],
     13

@@ -79,3 +79,16 @@ karte.setView(
 );
 
 console.log(SPORTSTAETTEN);
+
+for(let staette of SPORTSTAETTEN) {
+    console.log(staette);
+    let positionsmarker = L.marker(
+        [staette.lat, staette.lng]
+    ).addTo(karte);
+    positionsmarker.bindPopup(
+        `<h3>Name: ${staette.name}</h3>
+        <p>Adresse: ${staette.adresse}</p>
+        <p>Typ: ${staette.typ}</p>
+        <p>Gruppe: ${staette.gruppe}</p>` 
+    )
+};

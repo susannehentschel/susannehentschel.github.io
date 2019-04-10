@@ -85,9 +85,15 @@ karte.locate ({
     maxZoom: 18,
 });
 
+//Finden des Standorts und Marker setzen
 karte.on("locationfound", function(event) {
     console.log(event),
     L.marker([
         event.latitude, event.longitude
-    ]).addTo(karte)
+    ]).addTo(karte);
+    L.circle([
+        event.latitude, event.longitude],
+        {radius: event.accuracy/2} 
+    ).addTo(karte);
 });
+//

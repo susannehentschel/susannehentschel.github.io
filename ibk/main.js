@@ -84,3 +84,10 @@ karte.locate ({
     setView: true,
     maxZoom: 18,
 });
+
+karte.on("locationfound", function(event) {
+    console.log(event),
+    L.marker([
+        event.latitude, event.longitude
+    ]).addTo(karte)
+});

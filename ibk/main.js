@@ -9,7 +9,7 @@ let karte = L.map("map");
 
 //Kartenlayer hinzufügen
 const kartenLayer = {
-    osm: L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
+    osm: L.tileLayer("https://{s}.tile.osm.org/{z}/{x}/{y}.png", {
         subdomains: ["a", "b", "c"],
         attribution: `Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>`
     }),
@@ -45,11 +45,11 @@ const kartenLayer = {
         subdomains: ["a", "b", "c"],
         attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
     }),
-    stamen_terrain: L.tileLayer("http://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg", {
+    stamen_terrain: L.tileLayer("https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg", {
         subdomains: ["a", "b", "c"],
         attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
     }),
-    stamen_watercolor: L.tileLayer("http:////stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg", {
+    stamen_watercolor: L.tileLayer("https:////stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg", {
         subdomains: ["a", "b", "c"],
         attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.'
     }),
@@ -79,22 +79,29 @@ kartenLayer.osm.addTo(karte);
     //13
 //);
 
+let positionsMarker = L.marker([47,11]).addTo(karte);
+
 //Karte findet Standort selbst
 karte.locate ({
     setView: true,
     maxZoom: 18,
+    watch: true,
 });
 
 //Finden des Standorts und Marker setzen
 karte.on("locationfound", function(event) {
     console.log(event),
-    L.marker([
-        event.latitude, event.longitude
-    ]).addTo(karte);
+    //L.marker(event.latlng).addTo(karte);
+    positionsMarker.setLatLng(event.latlng); //Positionsmarker immer auf aktuellen Standort setzen
     //Radius der Genauigkeit des Markers ziehen 
     L.circle([
         event.latitude, event.longitude],
         {radius: event.accuracy/2} 
     ).addTo(karte);
+});
+
+//Errorfunktion, wenn kein Standort gefunden wird
+karte.on("locationerror", function(event){
+    alert("Leider keinen Standort gefunden")
 });
 

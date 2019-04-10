@@ -85,7 +85,7 @@ let positionsMarker = L.marker([47,11]).addTo(karte);
 karte.locate ({
     setView: true,
     maxZoom: 18,
-    watch: true,
+    //watch: true,  (setzt alle 10sek neuen Standort)
 });
 
 //Finden des Standorts und Marker setzen

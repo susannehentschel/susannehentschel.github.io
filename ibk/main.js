@@ -74,34 +74,8 @@ L.control.layers({
 kartenLayer.osm.addTo(karte);
 
 //Auf Auschnitt zoomen
-//karte.setView(
-  //  [breite, laenge],
-    //13
-//);
+karte.setView(
+    [47.267222, 11.392778],15  
+);
 
-let positionsMarker = L.marker([47,11]).addTo(karte);
-
-//Karte findet Standort selbst
-karte.locate ({
-    setView: true,
-    maxZoom: 18,
-    //watch: true, (macht alle 10sek eine Standortanalyse)
-});
-
-//Finden des Standorts und Marker setzen
-karte.on("locationfound", function(event) {
-    console.log(event),
-    //L.marker(event.latlng).addTo(karte);
-    positionsMarker.setLatLng(event.latlng); //Positionsmarker immer auf aktuellen Standort setzen
-    //Radius der Genauigkeit des Markers ziehen 
-    L.circle([
-        event.latitude, event.longitude],
-        {radius: event.accuracy/2} 
-    ).addTo(karte);
-});
-
-//Errorfunktion, wenn kein Standort gefunden wird
-karte.on("locationerror", function(event){
-    alert("Leider keinen Standort gefunden")
-});
-
+console.log(SPORTSTAETTEN);

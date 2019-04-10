@@ -7,6 +7,7 @@ const titel = div.getAttribute("data-title");
 //Karte initialisieren
 let karte = L.map("map");
 
+//Kartenlayer hinzufügen
 const kartenLayer = {
     osm: L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
         subdomains: ["a", "b", "c"],
@@ -73,7 +74,13 @@ L.control.layers({
 kartenLayer.osm.addTo(karte);
 
 //Auf Auschnitt zoomen
-karte.setView(
-    [breite, laenge],
-    13
-);
+//karte.setView(
+  //  [breite, laenge],
+    //13
+//);
+
+//Karte findet Standort selbst
+karte.locate ({
+    setView: true,
+    maxZoom: 18,
+});

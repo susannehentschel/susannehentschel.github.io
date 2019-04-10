@@ -6,7 +6,8 @@ const SPORTSTAETTEN = [
       "typ": "Klettergarten",
       "gruppe": "Fitness/Klettern",
       "lng": 11.364655117,
-      "lat": 47.2963692600001
+      "lat": 47.2963692600001,
+      "icon": "klettern"
     },
     {
       "id": 2,
@@ -15,7 +16,8 @@ const SPORTSTAETTEN = [
       "typ": "Klettergarten",
       "gruppe": "Fitness/Klettern",
       "lng": 11.415853409,
-      "lat": 47.2917330490001
+      "lat": 47.2917330490001,
+      "icon": "klettern"
     },
     {
       "id": 3,
@@ -24,7 +26,8 @@ const SPORTSTAETTEN = [
       "typ": "Klettergarten",
       "gruppe": "Fitness/Klettern",
       "lng": 11.41497595,
-      "lat": 47.291621558
+      "lat": 47.291621558,
+      "icon": "klettern"
     },
     {
       "id": 4,
@@ -33,7 +36,8 @@ const SPORTSTAETTEN = [
       "typ": "Schießstand",
       "gruppe": "Sonstiges",
       "lng": 11.427154455,
-      "lat": 47.2899562970001
+      "lat": 47.2899562970001,
+      "icon": "gewehrschiessen"
     },
     {
       "id": 5,
@@ -42,7 +46,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.4247514150001,
-      "lat": 47.289429039
+      "lat": 47.289429039,
+      "icon": "fussball"
     },
     {
       "id": 6,
@@ -51,7 +56,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.424681349,
-      "lat": 47.2891710960001
+      "lat": 47.2891710960001,
+      "icon": "leichtathletik"
     },
     {
       "id": 7,
@@ -60,7 +66,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnessparkour",
       "gruppe": "Fitness/Klettern",
       "lng": 11.397648771,
-      "lat": 47.2868725610001
+      "lat": 47.2868725610001,
+      "icon": "fitness"
     },
     {
       "id": 8,
@@ -69,7 +76,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.394771312,
-      "lat": 47.2866579390001
+      "lat": 47.2866579390001,
+      "icon": "fussball"
     },
     {
       "id": 9,
@@ -78,7 +86,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3937202610001,
-      "lat": 47.284982744
+      "lat": 47.284982744,
+      "icon": "tennis"
     },
     {
       "id": 10,
@@ -87,7 +96,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4262709540001,
-      "lat": 47.2847309110001
+      "lat": 47.2847309110001,
+      "icon": "fitness"
     },
     {
       "id": 11,
@@ -96,7 +106,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3934926360001,
-      "lat": 47.2849173920001
+      "lat": 47.2849173920001,
+      "icon": "tennis"
     },
     {
       "id": 12,
@@ -105,7 +116,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.393912518,
-      "lat": 47.284671916
+      "lat": 47.284671916,
+      "icon": "tennis"
     },
     {
       "id": 13,
@@ -114,7 +126,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.393686454,
-      "lat": 47.284607131
+      "lat": 47.284607131,
+      "icon": "tennis"
     },
     {
       "id": 14,
@@ -123,7 +136,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4121155020001,
-      "lat": 47.2837381900001
+      "lat": 47.2837381900001,
+      "icon": "fitness"
     },
     {
       "id": 15,
@@ -132,7 +146,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4153060100001,
-      "lat": 47.283270794
+      "lat": 47.283270794,
+      "icon": "fussball"
     },
     {
       "id": 16,
@@ -141,7 +156,8 @@ const SPORTSTAETTEN = [
       "typ": "Basketballplatz",
       "gruppe": "Funsport",
       "lng": 11.4149247390001,
-      "lat": 47.2832541000001
+      "lat": 47.2832541000001,
+      "icon": "beachfussball"
     },
     {
       "id": 17,
@@ -150,7 +166,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.377228997,
-      "lat": 47.2827927070001
+      "lat": 47.2827927070001,
+      "icon": "fussball"
     },
     {
       "id": 18,
@@ -159,7 +176,8 @@ const SPORTSTAETTEN = [
       "typ": "Klettergarten",
       "gruppe": "Fitness/Klettern",
       "lng": 11.3943376140001,
-      "lat": 47.2821982080001
+      "lat": 47.2821982080001,
+      "icon": "klettern"
     },
     {
       "id": 19,
@@ -168,7 +186,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3993704820001,
-      "lat": 47.277247743
+      "lat": 47.277247743,
+      "icon": "fussball"
     },
     {
       "id": 20,
@@ -177,7 +196,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.4001868340001,
-      "lat": 47.2762179850001
+      "lat": 47.2762179850001,
+      "icon": "leichtathletik"
     },
     {
       "id": 21,
@@ -186,7 +206,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.436514174,
-      "lat": 47.2752180140001
+      "lat": 47.2752180140001,
+      "icon": "fitness"
     },
     {
       "id": 22,
@@ -195,7 +216,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.436285652,
-      "lat": 47.2751741880001
+      "lat": 47.2751741880001,
+      "icon": "fitness"
     },
     {
       "id": 23,
@@ -204,7 +226,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.435498936,
-      "lat": 47.27468084
+      "lat": 47.27468084,
+      "icon": "fussball"
     },
     {
       "id": 24,
@@ -213,7 +236,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.426741491,
-      "lat": 47.2748708300001
+      "lat": 47.2748708300001,
+      "icon": "billiard"
     },
     {
       "id": 25,
@@ -222,7 +246,8 @@ const SPORTSTAETTEN = [
       "typ": "Streetballplatz",
       "gruppe": "Funsport",
       "lng": 11.4273048430001,
-      "lat": 47.2746943980001
+      "lat": 47.2746943980001,
+      "icon": "fussball"
     },
     {
       "id": 26,
@@ -231,7 +256,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4223628400001,
-      "lat": 47.274699436
+      "lat": 47.274699436,
+      "icon": "fussball"
     },
     {
       "id": 27,
@@ -240,7 +266,8 @@ const SPORTSTAETTEN = [
       "typ": "Skate-/Rollerbladeplatz",
       "gruppe": "Funsport",
       "lng": 11.428054316,
-      "lat": 47.2743626930001
+      "lat": 47.2743626930001,
+      "icon": "skateboard"
     },
     {
       "id": 28,
@@ -249,7 +276,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4131901160001,
-      "lat": 47.2743084190001
+      "lat": 47.2743084190001,
+      "icon": "fussball"
     },
     {
       "id": 29,
@@ -258,7 +286,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennishalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.42578451,
-      "lat": 47.274143307
+      "lat": 47.274143307,
+      "icon": "tennis"
     },
     {
       "id": 30,
@@ -267,7 +296,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4258071730001,
-      "lat": 47.2737411910001
+      "lat": 47.2737411910001,
+      "icon": "tennis"
     },
     {
       "id": 31,
@@ -276,7 +306,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.425121022,
-      "lat": 47.273612514
+      "lat": 47.273612514,
+      "icon": "fussball"
     },
     {
       "id": 32,
@@ -285,7 +316,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.4247685280001,
-      "lat": 47.2736350010001
+      "lat": 47.2736350010001,
+      "icon": "leichtathletik"
     },
     {
       "id": 33,
@@ -294,7 +326,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.424773283,
-      "lat": 47.27342392
+      "lat": 47.27342392,
+      "icon": "leichtathletik"
     },
     {
       "id": 34,
@@ -303,7 +336,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.427253035,
-      "lat": 47.2733333510001
+      "lat": 47.2733333510001,
+      "icon": "tennis"
     },
     {
       "id": 35,
@@ -312,7 +346,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4270284670001,
-      "lat": 47.273331995
+      "lat": 47.273331995,
+      "icon": "tennis"
     },
     {
       "id": 36,
@@ -321,7 +356,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.426803428,
-      "lat": 47.273330619
+      "lat": 47.273330619,
+      "icon": "tennis"
     },
     {
       "id": 37,
@@ -330,7 +366,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.426578391,
-      "lat": 47.2733292440001
+      "lat": 47.2733292440001,
+      "icon": "tennis"
     },
     {
       "id": 38,
@@ -339,7 +376,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.426350374,
-      "lat": 47.2733278740001
+      "lat": 47.2733278740001,
+      "icon": "tennis"
     },
     {
       "id": 39,
@@ -348,7 +386,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.418923701,
-      "lat": 47.273421672
+      "lat": 47.273421672,
+      "icon": "fussball"
     },
     {
       "id": 40,
@@ -357,7 +396,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.403317777,
-      "lat": 47.2734314950001
+      "lat": 47.2734314950001,
+      "icon": "fussball"
     },
     {
       "id": 41,
@@ -366,7 +406,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4245176430001,
-      "lat": 47.273210621
+      "lat": 47.273210621,
+      "icon": "fussball"
     },
     {
       "id": 42,
@@ -375,7 +416,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.425120888,
-      "lat": 47.2732814030001
+      "lat": 47.2732814030001,
+      "icon": "fitness"
     },
     {
       "id": 43,
@@ -384,7 +426,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.427481986,
-      "lat": 47.273239473
+      "lat": 47.273239473,
+      "icon": "tennis"
     },
     {
       "id": 44,
@@ -393,7 +436,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4274897060001,
-      "lat": 47.2729718140001
+      "lat": 47.2729718140001,
+      "icon": "tennis"
     },
     {
       "id": 45,
@@ -402,7 +446,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4272648520001,
-      "lat": 47.2729679510001
+      "lat": 47.2729679510001,
+      "icon": "tennis"
     },
     {
       "id": 46,
@@ -411,7 +456,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4270392,
-      "lat": 47.2729639930001
+      "lat": 47.2729639930001,
+      "icon": "tennis"
     },
     {
       "id": 47,
@@ -420,7 +466,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4268141850001,
-      "lat": 47.272960063
+      "lat": 47.272960063,
+      "icon": "tennis"
     },
     {
       "id": 48,
@@ -429,7 +476,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.426589171,
-      "lat": 47.272956133
+      "lat": 47.272956133,
+      "icon": "tennis"
     },
     {
       "id": 49,
@@ -438,7 +486,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4263646040001,
-      "lat": 47.272952252
+      "lat": 47.272952252,
+      "icon": "tennis"
     },
     {
       "id": 50,
@@ -447,7 +496,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.424871782,
-      "lat": 47.2730108420001
+      "lat": 47.2730108420001,
+      "icon": "fitness"
     },
     {
       "id": 51,
@@ -456,7 +506,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.403881621,
-      "lat": 47.273149743
+      "lat": 47.273149743,
+      "icon": "fitness"
     },
     {
       "id": 52,
@@ -465,7 +516,8 @@ const SPORTSTAETTEN = [
       "typ": "Schießstandhalle",
       "gruppe": "Sonstiges",
       "lng": 11.424678052,
-      "lat": 47.272747553
+      "lat": 47.272747553,
+      "icon": "gewehrschiessen"
     },
     {
       "id": 53,
@@ -474,7 +526,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.4447612540001,
-      "lat": 47.27211349
+      "lat": 47.27211349,
+      "icon": "fussball"
     },
     {
       "id": 54,
@@ -483,7 +536,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4247853520001,
-      "lat": 47.2725798660001
+      "lat": 47.2725798660001,
+      "icon": "fitness"
     },
     {
       "id": 55,
@@ -492,7 +546,8 @@ const SPORTSTAETTEN = [
       "typ": "Kegelbahn",
       "gruppe": "Sporthalle",
       "lng": 11.424988523,
-      "lat": 47.2725866310001
+      "lat": 47.2725866310001,
+      "icon": "kegeln"
     },
     {
       "id": 56,
@@ -501,7 +556,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4185350020001,
-      "lat": 47.2725490130001
+      "lat": 47.2725490130001,
+      "icon": "fitness"
     },
     {
       "id": 57,
@@ -510,7 +566,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4181968830001,
-      "lat": 47.2724271800001
+      "lat": 47.2724271800001,
+      "icon": "fitness"
     },
     {
       "id": 58,
@@ -519,7 +576,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4378196390001,
-      "lat": 47.272156625
+      "lat": 47.272156625,
+      "icon": "fussball"
     },
     {
       "id": 59,
@@ -528,7 +586,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4182841790001,
-      "lat": 47.272219911
+      "lat": 47.272219911,
+      "icon": "fitness"
     },
     {
       "id": 60,
@@ -537,7 +596,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.363486643,
-      "lat": 47.2725735380001
+      "lat": 47.2725735380001,
+      "icon": "fussball"
     },
     {
       "id": 61,
@@ -546,7 +606,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4244252190001,
-      "lat": 47.271876503
+      "lat": 47.271876503,
+      "icon": "tennis"
     },
     {
       "id": 62,
@@ -555,7 +616,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.424212902,
-      "lat": 47.2718201220001
+      "lat": 47.2718201220001,
+      "icon": "tennis"
     },
     {
       "id": 63,
@@ -564,7 +626,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4240001700001,
-      "lat": 47.2717636620001
+      "lat": 47.2717636620001,
+      "icon": "tennis"
     },
     {
       "id": 64,
@@ -573,7 +636,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennishalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.423667122,
-      "lat": 47.271680147
+      "lat": 47.271680147,
+      "icon": "tennis"
     },
     {
       "id": 65,
@@ -582,7 +646,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennishalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.4234509790001,
-      "lat": 47.2716225290001
+      "lat": 47.2716225290001,
+      "icon": "tennis"
     },
     {
       "id": 66,
@@ -591,7 +656,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4246093310001,
-      "lat": 47.27155358
+      "lat": 47.27155358,
+      "icon": "tennis"
     },
     {
       "id": 67,
@@ -600,7 +666,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennishalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.4232349700001,
-      "lat": 47.2715649020001
+      "lat": 47.2715649020001,
+      "icon": "tennis"
     },
     {
       "id": 68,
@@ -609,7 +676,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.42439791,
-      "lat": 47.2714974560001
+      "lat": 47.2714974560001,
+      "icon": "tennis"
     },
     {
       "id": 69,
@@ -618,7 +686,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4241848570001,
-      "lat": 47.2714410950001
+      "lat": 47.2714410950001,
+      "icon": "tennis"
     },
     {
       "id": 70,
@@ -627,7 +696,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.423868479,
-      "lat": 47.2713459450001
+      "lat": 47.2713459450001,
+      "icon": "tennis"
     },
     {
       "id": 71,
@@ -636,7 +706,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.423652389,
-      "lat": 47.2712887420001
+      "lat": 47.2712887420001,
+      "icon": "tennis"
     },
     {
       "id": 72,
@@ -645,7 +716,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.388466629,
-      "lat": 47.2716710390001
+      "lat": 47.2716710390001,
+      "icon": "fussball"
     },
     {
       "id": 73,
@@ -654,7 +726,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.424790748,
-      "lat": 47.271254416
+      "lat": 47.271254416,
+      "icon": "beachvolleyball"
     },
     {
       "id": 74,
@@ -663,7 +736,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4234359930001,
-      "lat": 47.271231578
+      "lat": 47.271231578,
+      "icon": "tennis"
     },
     {
       "id": 75,
@@ -672,7 +746,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.4245930230001,
-      "lat": 47.2711955350001
+      "lat": 47.2711955350001,
+      "icon": "beachvolleyball"
     },
     {
       "id": 76,
@@ -681,7 +756,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.3993143870001,
-      "lat": 47.271154274
+      "lat": 47.271154274,
+      "icon": "fussball"
     },
     {
       "id": 77,
@@ -690,7 +766,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.424370982,
-      "lat": 47.271130113
+      "lat": 47.271130113,
+      "icon": "beachvolleyball"
     },
     {
       "id": 78,
@@ -699,7 +776,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3925927970001,
-      "lat": 47.2713961740001
+      "lat": 47.2713961740001,
+      "icon": "fitness"
     },
     {
       "id": 79,
@@ -708,7 +786,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4237751270001,
-      "lat": 47.271016988
+      "lat": 47.271016988,
+      "icon": "tennis"
     },
     {
       "id": 80,
@@ -717,7 +796,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4432232560001,
-      "lat": 47.2704708190001
+      "lat": 47.2704708190001,
+      "icon": "fitness"
     },
     {
       "id": 81,
@@ -726,7 +806,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4238305590001,
-      "lat": 47.270905009
+      "lat": 47.270905009,
+      "icon": "tennis"
     },
     {
       "id": 82,
@@ -735,7 +816,8 @@ const SPORTSTAETTEN = [
       "typ": "Schießstandhalle",
       "gruppe": "Sonstiges",
       "lng": 11.375426895,
-      "lat": 47.271149069
+      "lat": 47.271149069,
+      "icon": "gewehrschiessen"
     },
     {
       "id": 83,
@@ -744,7 +826,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4430417030001,
-      "lat": 47.270171761
+      "lat": 47.270171761,
+      "icon": "fitness"
     },
     {
       "id": 84,
@@ -753,7 +836,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4438413990001,
-      "lat": 47.269935823
+      "lat": 47.269935823,
+      "icon": "fussball"
     },
     {
       "id": 85,
@@ -762,7 +846,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3813129960001,
-      "lat": 47.2705957410001
+      "lat": 47.2705957410001,
+      "icon": "fussball"
     },
     {
       "id": 86,
@@ -771,7 +856,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3919432450001,
-      "lat": 47.2704323090001
+      "lat": 47.2704323090001,
+      "icon": "fussball"
     },
     {
       "id": 87,
@@ -780,7 +866,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.4178500960001,
-      "lat": 47.269343034
+      "lat": 47.269343034,
+      "icon": "fussball"
     },
     {
       "id": 88,
@@ -789,7 +876,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4107794990001,
-      "lat": 47.269435006
+      "lat": 47.269435006,
+      "icon": "fitness"
     },
     {
       "id": 89,
@@ -798,7 +886,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.410491462,
-      "lat": 47.26938153
+      "lat": 47.26938153,
+      "icon": "fitness"
     },
     {
       "id": 90,
@@ -807,7 +896,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.4172083030001,
-      "lat": 47.2689571820001
+      "lat": 47.2689571820001,
+      "icon": "fussball"
     },
     {
       "id": 91,
@@ -816,7 +906,8 @@ const SPORTSTAETTEN = [
       "typ": "Bocciabahn",
       "gruppe": "Sonstiges",
       "lng": 11.447393694,
-      "lat": 47.2688339900001
+      "lat": 47.2688339900001,
+      "icon": "boccia"
     },
     {
       "id": 92,
@@ -825,7 +916,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4034280220001,
-      "lat": 47.2690688710001
+      "lat": 47.2690688710001,
+      "icon": "fitness"
     },
     {
       "id": 93,
@@ -834,7 +926,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.424603427,
-      "lat": 47.2687839000001
+      "lat": 47.2687839000001,
+      "icon": "fussball"
     },
     {
       "id": 94,
@@ -843,7 +936,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.421998531,
-      "lat": 47.268520322
+      "lat": 47.268520322,
+      "icon": "fussball"
     },
     {
       "id": 95,
@@ -852,7 +946,8 @@ const SPORTSTAETTEN = [
       "typ": "Schießstandhalle",
       "gruppe": "Sonstiges",
       "lng": 11.428001846,
-      "lat": 47.2680387140001
+      "lat": 47.2680387140001,
+      "icon": "gewehrschiessen"
     },
     {
       "id": 96,
@@ -861,7 +956,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3859470400001,
-      "lat": 47.268300121
+      "lat": 47.268300121,
+      "icon": "fitness"
     },
     {
       "id": 97,
@@ -870,7 +966,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.407745537,
-      "lat": 47.2675290650001
+      "lat": 47.2675290650001,
+      "icon": "fitness"
     },
     {
       "id": 98,
@@ -879,7 +976,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.356427164,
-      "lat": 47.267981402
+      "lat": 47.267981402,
+      "icon": "fitness"
     },
     {
       "id": 99,
@@ -888,7 +986,8 @@ const SPORTSTAETTEN = [
       "typ": "Bocciabahn",
       "gruppe": "Sonstiges",
       "lng": 11.4066023020001,
-      "lat": 47.2673770490001
+      "lat": 47.2673770490001,
+      "icon": "boccia"
     },
     {
       "id": 100,
@@ -897,7 +996,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.421784652,
-      "lat": 47.2669068860001
+      "lat": 47.2669068860001,
+      "icon": "fussball"
     },
     {
       "id": 101,
@@ -906,7 +1006,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.406653942,
-      "lat": 47.267072037
+      "lat": 47.267072037,
+      "icon": "fussball"
     },
     {
       "id": 102,
@@ -915,7 +1016,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.421233461,
-      "lat": 47.266909974
+      "lat": 47.266909974,
+      "icon": "beachvolleyball"
     },
     {
       "id": 103,
@@ -924,7 +1026,8 @@ const SPORTSTAETTEN = [
       "typ": "Streetballplatz",
       "gruppe": "Funsport",
       "lng": 11.4208778670001,
-      "lat": 47.266956174
+      "lat": 47.266956174,
+      "icon": "fussball"
     },
     {
       "id": 104,
@@ -933,7 +1036,8 @@ const SPORTSTAETTEN = [
       "typ": "Skate-/Rollerbladeplatz",
       "gruppe": "Funsport",
       "lng": 11.343931872,
-      "lat": 47.267478166
+      "lat": 47.267478166,
+      "icon": "skateboard"
     },
     {
       "id": 105,
@@ -942,7 +1046,8 @@ const SPORTSTAETTEN = [
       "typ": "Basketballplatz",
       "gruppe": "Funsport",
       "lng": 11.4206905240001,
-      "lat": 47.2668636510001
+      "lat": 47.2668636510001,
+      "icon": "basketball"
     },
     {
       "id": 106,
@@ -951,7 +1056,8 @@ const SPORTSTAETTEN = [
       "typ": "Streetballplatz",
       "gruppe": "Funsport",
       "lng": 11.420834353,
-      "lat": 47.2668712510001
+      "lat": 47.2668712510001,
+      "icon": "fussball"
     },
     {
       "id": 107,
@@ -960,7 +1066,8 @@ const SPORTSTAETTEN = [
       "typ": "Streetballplatz",
       "gruppe": "Funsport",
       "lng": 11.420790842,
-      "lat": 47.2667863290001
+      "lat": 47.2667863290001,
+      "icon": "fussball"
     },
     {
       "id": 108,
@@ -969,7 +1076,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachsoccerplatz",
       "gruppe": "Funsport",
       "lng": 11.4211369830001,
-      "lat": 47.266722154
+      "lat": 47.266722154,
+      "icon": "beachfussball"
     },
     {
       "id": 109,
@@ -978,7 +1086,8 @@ const SPORTSTAETTEN = [
       "typ": "Kegelbahn",
       "gruppe": "Sporthalle",
       "lng": 11.344663886,
-      "lat": 47.267404137
+      "lat": 47.267404137,
+      "icon": "kegeln"
     },
     {
       "id": 110,
@@ -987,7 +1096,8 @@ const SPORTSTAETTEN = [
       "typ": "Bocciabahn",
       "gruppe": "Sonstiges",
       "lng": 11.421501791,
-      "lat": 47.266389114
+      "lat": 47.266389114,
+      "icon": "boccia"
     },
     {
       "id": 111,
@@ -996,7 +1106,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3425032380001,
-      "lat": 47.266968127
+      "lat": 47.266968127,
+      "icon": "fussball"
     },
     {
       "id": 112,
@@ -1005,7 +1116,8 @@ const SPORTSTAETTEN = [
       "typ": "Bocciabahn",
       "gruppe": "Sonstiges",
       "lng": 11.4215020980001,
-      "lat": 47.266333155
+      "lat": 47.266333155,
+      "icon": "boccia"
     },
     {
       "id": 113,
@@ -1014,7 +1126,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3447884940001,
-      "lat": 47.2668866440001
+      "lat": 47.2668866440001,
+      "icon": "fitness"
     },
     {
       "id": 114,
@@ -1023,7 +1136,8 @@ const SPORTSTAETTEN = [
       "typ": "Eislaufplatz",
       "gruppe": "Eissport",
       "lng": 11.3948223950001,
-      "lat": 47.2660163680001
+      "lat": 47.2660163680001,
+      "icon": "eiskunstlauf"
     },
     {
       "id": 115,
@@ -1032,7 +1146,8 @@ const SPORTSTAETTEN = [
       "typ": "Skate-/Rollerbladeplatz",
       "gruppe": "Funsport",
       "lng": 11.405561275,
-      "lat": 47.265428028
+      "lat": 47.265428028,
+      "icon": "skateboard"
     },
     {
       "id": 116,
@@ -1041,7 +1156,8 @@ const SPORTSTAETTEN = [
       "typ": "Hallenbad",
       "gruppe": "Schwimmen",
       "lng": 11.4052925890001,
-      "lat": 47.265167198
+      "lat": 47.265167198,
+      "icon": "schwimmen"
     },
     {
       "id": 117,
@@ -1050,7 +1166,8 @@ const SPORTSTAETTEN = [
       "typ": "Hallenbad",
       "gruppe": "Schwimmen",
       "lng": 11.380685167,
-      "lat": 47.2652095720001
+      "lat": 47.2652095720001,
+      "icon": "schwimmen"
     },
     {
       "id": 118,
@@ -1059,7 +1176,8 @@ const SPORTSTAETTEN = [
       "typ": "Hallenbad",
       "gruppe": "Schwimmen",
       "lng": 11.4054261270001,
-      "lat": 47.264926148
+      "lat": 47.264926148,
+      "icon": "schwimmen"
     },
     {
       "id": 119,
@@ -1068,7 +1186,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3824415030001,
-      "lat": 47.264847511
+      "lat": 47.264847511,
+      "icon": "fussball"
     },
     {
       "id": 120,
@@ -1077,7 +1196,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.420079635,
-      "lat": 47.264582149
+      "lat": 47.264582149,
+      "icon": "fussball"
     },
     {
       "id": 121,
@@ -1086,7 +1206,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.381602365,
-      "lat": 47.2648358180001
+      "lat": 47.2648358180001,
+      "icon": "fitness"
     },
     {
       "id": 122,
@@ -1095,7 +1216,8 @@ const SPORTSTAETTEN = [
       "typ": "Streetballplatz",
       "gruppe": "Funsport",
       "lng": 11.382741222,
-      "lat": 47.264651316
+      "lat": 47.264651316,
+      "icon": "fussball"
     },
     {
       "id": 123,
@@ -1104,7 +1226,8 @@ const SPORTSTAETTEN = [
       "typ": "Basketballplatz",
       "gruppe": "Funsport",
       "lng": 11.36548428,
-      "lat": 47.263504805
+      "lat": 47.263504805,
+      "icon": "basketball"
     },
     {
       "id": 124,
@@ -1113,7 +1236,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3690413890001,
-      "lat": 47.2621938990001
+      "lat": 47.2621938990001,
+      "icon": "fussball"
     },
     {
       "id": 125,
@@ -1122,7 +1246,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.368083449,
-      "lat": 47.262523936
+      "lat": 47.262523936,
+      "icon": "fitness"
     },
     {
       "id": 126,
@@ -1131,7 +1256,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3492782870001,
-      "lat": 47.262638194
+      "lat": 47.262638194,
+      "icon": "tennis"
     },
     {
       "id": 127,
@@ -1140,7 +1266,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.391552405,
-      "lat": 47.261748653
+      "lat": 47.261748653,
+      "icon": "fitness"
     },
     {
       "id": 128,
@@ -1149,7 +1276,8 @@ const SPORTSTAETTEN = [
       "typ": "Streetballplatz",
       "gruppe": "Funsport",
       "lng": 11.3800333880001,
-      "lat": 47.261621726
+      "lat": 47.261621726,
+      "icon": "fussball"
     },
     {
       "id": 129,
@@ -1158,7 +1286,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3880118860001,
-      "lat": 47.2614990760001
+      "lat": 47.2614990760001,
+      "icon": "fitness"
     },
     {
       "id": 130,
@@ -1167,7 +1296,8 @@ const SPORTSTAETTEN = [
       "typ": "Freibad",
       "gruppe": "Schwimmen",
       "lng": 11.406920389,
-      "lat": 47.2609538500001
+      "lat": 47.2609538500001,
+      "icon": "schwimmen"
     },
     {
       "id": 131,
@@ -1176,7 +1306,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3967834700001,
-      "lat": 47.2610208020001
+      "lat": 47.2610208020001,
+      "icon": "fitness"
     },
     {
       "id": 132,
@@ -1185,7 +1316,8 @@ const SPORTSTAETTEN = [
       "typ": "Freibad",
       "gruppe": "Schwimmen",
       "lng": 11.4083285340001,
-      "lat": 47.2605904870001
+      "lat": 47.2605904870001,
+      "icon": "schwimmen"
     },
     {
       "id": 133,
@@ -1194,7 +1326,8 @@ const SPORTSTAETTEN = [
       "typ": "Freibad",
       "gruppe": "Schwimmen",
       "lng": 11.4070738340001,
-      "lat": 47.26057616
+      "lat": 47.26057616,
+      "icon": "schwimmen"
     },
     {
       "id": 134,
@@ -1203,7 +1336,8 @@ const SPORTSTAETTEN = [
       "typ": "Freibad",
       "gruppe": "Schwimmen",
       "lng": 11.4086823710001,
-      "lat": 47.260261707
+      "lat": 47.260261707,
+      "icon": "schwimmen"
     },
     {
       "id": 135,
@@ -1212,7 +1346,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.369550121,
-      "lat": 47.260483976
+      "lat": 47.260483976,
+      "icon": "fitness"
     },
     {
       "id": 136,
@@ -1221,7 +1356,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.36996011,
-      "lat": 47.259942611
+      "lat": 47.259942611,
+      "icon": "fussball"
     },
     {
       "id": 137,
@@ -1230,7 +1366,8 @@ const SPORTSTAETTEN = [
       "typ": "Bocciabahn",
       "gruppe": "Sonstiges",
       "lng": 11.434690689,
-      "lat": 47.2593948420001
+      "lat": 47.2593948420001,
+      "icon": "boccia"
     },
     {
       "id": 138,
@@ -1239,7 +1376,8 @@ const SPORTSTAETTEN = [
       "typ": "Freibad",
       "gruppe": "Schwimmen",
       "lng": 11.4085248920001,
-      "lat": 47.2595331570001
+      "lat": 47.2595331570001,
+      "icon": "schwimmen"
     },
     {
       "id": 139,
@@ -1248,7 +1386,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.428709364,
-      "lat": 47.2584951650001
+      "lat": 47.2584951650001,
+      "icon": "fitness"
     },
     {
       "id": 140,
@@ -1257,7 +1396,8 @@ const SPORTSTAETTEN = [
       "typ": "Bocciabahn",
       "gruppe": "Sonstiges",
       "lng": 11.3843561950001,
-      "lat": 47.258638558
+      "lat": 47.258638558,
+      "icon": "boccia"
     },
     {
       "id": 141,
@@ -1266,7 +1406,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.377160604,
-      "lat": 47.2585589450001
+      "lat": 47.2585589450001,
+      "icon": "fussball"
     },
     {
       "id": 142,
@@ -1275,7 +1416,8 @@ const SPORTSTAETTEN = [
       "typ": "Bocciabahn",
       "gruppe": "Sonstiges",
       "lng": 11.3841370430001,
-      "lat": 47.2585776110001
+      "lat": 47.2585776110001,
+      "icon": "boccia"
     },
     {
       "id": 143,
@@ -1284,7 +1426,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3767336930001,
-      "lat": 47.258592127
+      "lat": 47.258592127,
+      "icon": "fitness"
     },
     {
       "id": 144,
@@ -1293,7 +1436,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.360396655,
-      "lat": 47.2587770900001
+      "lat": 47.2587770900001,
+      "icon": "tennis"
     },
     {
       "id": 145,
@@ -1302,7 +1446,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.357882021,
-      "lat": 47.258637853
+      "lat": 47.258637853,
+      "icon": "tennis"
     },
     {
       "id": 146,
@@ -1311,7 +1456,8 @@ const SPORTSTAETTEN = [
       "typ": "Eishalle",
       "gruppe": "Eissport",
       "lng": 11.4095511630001,
-      "lat": 47.2578544340001
+      "lat": 47.2578544340001,
+      "icon": "eiskunstlauf"
     },
     {
       "id": 147,
@@ -1320,7 +1466,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3576728090001,
-      "lat": 47.2585822820001
+      "lat": 47.2585822820001,
+      "icon": "tennis"
     },
     {
       "id": 148,
@@ -1329,7 +1476,8 @@ const SPORTSTAETTEN = [
       "typ": "Eishalle",
       "gruppe": "Eissport",
       "lng": 11.4106045620001,
-      "lat": 47.257967711
+      "lat": 47.257967711,
+      "icon": "eiskunstlauf"
     },
     {
       "id": 149,
@@ -1338,7 +1486,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.360543648,
-      "lat": 47.2585225170001
+      "lat": 47.2585225170001,
+      "icon": "tennis"
     },
     {
       "id": 150,
@@ -1347,7 +1496,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.357464051,
-      "lat": 47.258527289
+      "lat": 47.258527289,
+      "icon": "tennis"
     },
     {
       "id": 151,
@@ -1356,7 +1506,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3603067500001,
-      "lat": 47.258508008
+      "lat": 47.258508008,
+      "icon": "tennis"
     },
     {
       "id": 152,
@@ -1365,7 +1516,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.398994251,
-      "lat": 47.2582216280001
+      "lat": 47.2582216280001,
+      "icon": "fussball"
     },
     {
       "id": 153,
@@ -1374,7 +1526,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.359964501,
-      "lat": 47.2584870800001
+      "lat": 47.2584870800001,
+      "icon": "tennis"
     },
     {
       "id": 154,
@@ -1383,7 +1536,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.383945093,
-      "lat": 47.2580116190001
+      "lat": 47.2580116190001,
+      "icon": "fussball"
     },
     {
       "id": 155,
@@ -1392,7 +1546,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.359727461,
-      "lat": 47.2584726910001
+      "lat": 47.2584726910001,
+      "icon": "tennis"
     },
     {
       "id": 156,
@@ -1401,7 +1556,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3572560710001,
-      "lat": 47.2584718680001
+      "lat": 47.2584718680001,
+      "icon": "tennis"
     },
     {
       "id": 157,
@@ -1410,7 +1566,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.359436755,
-      "lat": 47.258365064
+      "lat": 47.258365064,
+      "icon": "tennis"
     },
     {
       "id": 158,
@@ -1419,7 +1576,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennishalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.355827205,
-      "lat": 47.2582281030001
+      "lat": 47.2582281030001,
+      "icon": "tennis"
     },
     {
       "id": 159,
@@ -1428,7 +1586,8 @@ const SPORTSTAETTEN = [
       "typ": "Squashhalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.3561609010001,
-      "lat": 47.2582825740001
+      "lat": 47.2582825740001,
+      "icon": "squash"
     },
     {
       "id": 160,
@@ -1437,7 +1596,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3576410470001,
-      "lat": 47.2582191710001
+      "lat": 47.2582191710001,
+      "icon": "tennis"
     },
     {
       "id": 161,
@@ -1446,7 +1606,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.35743202,
-      "lat": 47.2581643290001
+      "lat": 47.2581643290001,
+      "icon": "tennis"
     },
     {
       "id": 162,
@@ -1455,7 +1616,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3602921240001,
-      "lat": 47.258064575
+      "lat": 47.258064575,
+      "icon": "tennis"
     },
     {
       "id": 163,
@@ -1464,7 +1626,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3597855470001,
-      "lat": 47.258033792
+      "lat": 47.258033792,
+      "icon": "tennis"
     },
     {
       "id": 164,
@@ -1473,7 +1636,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.3594827900001,
-      "lat": 47.258015146
+      "lat": 47.258015146,
+      "icon": "tennis"
     },
     {
       "id": 165,
@@ -1482,7 +1646,8 @@ const SPORTSTAETTEN = [
       "typ": "Hallenbad",
       "gruppe": "Schwimmen",
       "lng": 11.411184728,
-      "lat": 47.2575068360001
+      "lat": 47.2575068360001,
+      "icon": "schwimmen"
     },
     {
       "id": 166,
@@ -1491,7 +1656,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennishalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.3561685080001,
-      "lat": 47.257912268
+      "lat": 47.257912268,
+      "icon": "tennis"
     },
     {
       "id": 167,
@@ -1500,7 +1666,8 @@ const SPORTSTAETTEN = [
       "typ": "Eislaufplatz",
       "gruppe": "Eissport",
       "lng": 11.408976942,
-      "lat": 47.2571931350001
+      "lat": 47.2571931350001,
+      "icon": "eiskunstlauf"
     },
     {
       "id": 168,
@@ -1509,7 +1676,8 @@ const SPORTSTAETTEN = [
       "typ": "Eislaufplatz",
       "gruppe": "Eissport",
       "lng": 11.4098641620001,
-      "lat": 47.2570901390001
+      "lat": 47.2570901390001,
+      "icon": "eiskunstlauf"
     },
     {
       "id": 169,
@@ -1518,7 +1686,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.3594365970001,
-      "lat": 47.25752228
+      "lat": 47.25752228,
+      "icon": "leichtathletik"
     },
     {
       "id": 170,
@@ -1527,7 +1696,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.3583148110001,
-      "lat": 47.256967989
+      "lat": 47.256967989,
+      "icon": "leichtathletik"
     },
     {
       "id": 171,
@@ -1536,7 +1706,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.3589804980001,
-      "lat": 47.256950546
+      "lat": 47.256950546,
+      "icon": "fussball"
     },
     {
       "id": 172,
@@ -1545,7 +1716,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3708310650001,
-      "lat": 47.257117527
+      "lat": 47.257117527,
+      "icon": "fussball"
     },
     {
       "id": 173,
@@ -1554,7 +1726,8 @@ const SPORTSTAETTEN = [
       "typ": "Hallenbad",
       "gruppe": "Schwimmen",
       "lng": 11.3557104330001,
-      "lat": 47.2571850800001
+      "lat": 47.2571850800001,
+      "icon": "schwimmen"
     },
     {
       "id": 174,
@@ -1563,7 +1736,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.357504208,
-      "lat": 47.2566587920001
+      "lat": 47.2566587920001,
+      "icon": "fussball"
     },
     {
       "id": 175,
@@ -1572,7 +1746,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.359760529,
-      "lat": 47.2567811110001
+      "lat": 47.2567811110001,
+      "icon": "leichtathletik"
     },
     {
       "id": 176,
@@ -1581,7 +1756,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.411176696,
-      "lat": 47.256008552
+      "lat": 47.256008552,
+      "icon": "fussball"
     },
     {
       "id": 177,
@@ -1590,7 +1766,8 @@ const SPORTSTAETTEN = [
       "typ": "Schießstandhalle",
       "gruppe": "Sonstiges",
       "lng": 11.354911966,
-      "lat": 47.256959119
+      "lat": 47.256959119,
+      "icon": "gewehrschiessen"
     },
     {
       "id": 178,
@@ -1599,7 +1776,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.354367091,
-      "lat": 47.256621195
+      "lat": 47.256621195,
+      "icon": "fussball"
     },
     {
       "id": 179,
@@ -1608,7 +1786,8 @@ const SPORTSTAETTEN = [
       "typ": "Kletterhalle",
       "gruppe": "Fitness/Klettern",
       "lng": 11.412083045,
-      "lat": 47.256349593
+      "lat": 47.256349593,
+      "icon": "klettern"
     },
     {
       "id": 180,
@@ -1617,7 +1796,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.356585593,
-      "lat": 47.25692336
+      "lat": 47.25692336,
+      "icon": "fitness"
     },
     {
       "id": 181,
@@ -1626,7 +1806,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3566666200001,
-      "lat": 47.256829505
+      "lat": 47.256829505,
+      "icon": "fitness"
     },
     {
       "id": 182,
@@ -1635,7 +1816,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3566830240001,
-      "lat": 47.256707476
+      "lat": 47.256707476,
+      "icon": "fitness"
     },
     {
       "id": 183,
@@ -1644,7 +1826,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.355233981,
-      "lat": 47.2565678240001
+      "lat": 47.2565678240001,
+      "icon": "fussball"
     },
     {
       "id": 184,
@@ -1653,7 +1836,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.409820536,
-      "lat": 47.255827261
+      "lat": 47.255827261,
+      "icon": "fussball"
     },
     {
       "id": 185,
@@ -1662,7 +1846,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.356256493,
-      "lat": 47.2566260350001
+      "lat": 47.2566260350001,
+      "icon": "fitness"
     },
     {
       "id": 186,
@@ -1671,7 +1856,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3557738980001,
-      "lat": 47.2566738620001
+      "lat": 47.2566738620001,
+      "icon": "fitness"
     },
     {
       "id": 187,
@@ -1680,7 +1866,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4035691340001,
-      "lat": 47.2560023880001
+      "lat": 47.2560023880001,
+      "icon": "tennis"
     },
     {
       "id": 188,
@@ -1689,7 +1876,8 @@ const SPORTSTAETTEN = [
       "typ": "Kletterhalle",
       "gruppe": "Fitness/Klettern",
       "lng": 11.355827678,
-      "lat": 47.25652252
+      "lat": 47.25652252,
+      "icon": "klettern"
     },
     {
       "id": 189,
@@ -1698,7 +1886,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.356625174,
-      "lat": 47.256272579
+      "lat": 47.256272579,
+      "icon": "fitness"
     },
     {
       "id": 190,
@@ -1707,7 +1896,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.352479709,
-      "lat": 47.2562451320001
+      "lat": 47.2562451320001,
+      "icon": "fussball"
     },
     {
       "id": 191,
@@ -1716,7 +1906,8 @@ const SPORTSTAETTEN = [
       "typ": "Skate-/Rollerbladeplatz",
       "gruppe": "Funsport",
       "lng": 11.351961628,
-      "lat": 47.2563283910001
+      "lat": 47.2563283910001,
+      "icon": "skateboard"
     },
     {
       "id": 192,
@@ -1725,7 +1916,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3559880880001,
-      "lat": 47.256175818
+      "lat": 47.256175818,
+      "icon": "fussball"
     },
     {
       "id": 193,
@@ -1734,7 +1926,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3553985350001,
-      "lat": 47.2561440650001
+      "lat": 47.2561440650001,
+      "icon": "fussball"
     },
     {
       "id": 194,
@@ -1743,7 +1936,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.35144559,
-      "lat": 47.2562476700001
+      "lat": 47.2562476700001,
+      "icon": "beachvolleyball"
     },
     {
       "id": 195,
@@ -1752,7 +1946,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.40366197,
-      "lat": 47.2556711820001
+      "lat": 47.2556711820001,
+      "icon": "tennis"
     },
     {
       "id": 196,
@@ -1761,7 +1956,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.3512860340001,
-      "lat": 47.2562310020001
+      "lat": 47.2562310020001,
+      "icon": "beachvolleyball"
     },
     {
       "id": 197,
@@ -1770,7 +1966,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnessparkour",
       "gruppe": "Fitness/Klettern",
       "lng": 11.427065414,
-      "lat": 47.254496567
+      "lat": 47.254496567,
+      "icon": "fitness"
     },
     {
       "id": 198,
@@ -1779,7 +1976,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.351126403,
-      "lat": 47.256214324
+      "lat": 47.256214324,
+      "icon": "beachvolleyball"
     },
     {
       "id": 199,
@@ -1788,7 +1986,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3518872650001,
-      "lat": 47.2561131890001
+      "lat": 47.2561131890001,
+      "icon": "fitness"
     },
     {
       "id": 200,
@@ -1797,7 +1996,8 @@ const SPORTSTAETTEN = [
       "typ": "Kletterhalle",
       "gruppe": "Fitness/Klettern",
       "lng": 11.3517687140001,
-      "lat": 47.2560202340001
+      "lat": 47.2560202340001,
+      "icon": "klettern"
     },
     {
       "id": 201,
@@ -1806,7 +2006,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.357031606,
-      "lat": 47.2559399570001
+      "lat": 47.2559399570001,
+      "icon": "fussball"
     },
     {
       "id": 202,
@@ -1815,7 +2016,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.35650614,
-      "lat": 47.2559080830001
+      "lat": 47.2559080830001,
+      "icon": "fussball"
     },
     {
       "id": 203,
@@ -1824,7 +2026,8 @@ const SPORTSTAETTEN = [
       "typ": "Skate-/Rollerbladeplatz",
       "gruppe": "Funsport",
       "lng": 11.3558985610001,
-      "lat": 47.255797246
+      "lat": 47.255797246,
+      "icon": "skateboard"
     },
     {
       "id": 204,
@@ -1833,7 +2036,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.4100244800001,
-      "lat": 47.2552091220001
+      "lat": 47.2552091220001,
+      "icon": "beachvolleyball"
     },
     {
       "id": 205,
@@ -1842,7 +2046,8 @@ const SPORTSTAETTEN = [
       "typ": "Basketballplatz",
       "gruppe": "Funsport",
       "lng": 11.356955113,
-      "lat": 47.255749726
+      "lat": 47.255749726,
+      "icon": "basketball"
     },
     {
       "id": 206,
@@ -1851,7 +2056,8 @@ const SPORTSTAETTEN = [
       "typ": "Basketballplatz",
       "gruppe": "Funsport",
       "lng": 11.356632346,
-      "lat": 47.2557299700001
+      "lat": 47.2557299700001,
+      "icon": "basketball"
     },
     {
       "id": 207,
@@ -1860,7 +2066,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.400230466,
-      "lat": 47.2540783410001
+      "lat": 47.2540783410001,
+      "icon": "fussball"
     },
     {
       "id": 208,
@@ -1869,7 +2076,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.3960008290001,
-      "lat": 47.252722271
+      "lat": 47.252722271,
+      "icon": "leichtathletik"
     },
     {
       "id": 209,
@@ -1878,7 +2086,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.3956818950001,
-      "lat": 47.252728791
+      "lat": 47.252728791,
+      "icon": "fussball"
     },
     {
       "id": 210,
@@ -1887,7 +2096,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.395462111,
-      "lat": 47.2524247790001
+      "lat": 47.2524247790001,
+      "icon": "fussball"
     },
     {
       "id": 211,
@@ -1896,7 +2106,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.355481733,
-      "lat": 47.2524776610001
+      "lat": 47.2524776610001,
+      "icon": "fussball"
     },
     {
       "id": 212,
@@ -1905,7 +2116,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.356587484,
-      "lat": 47.2525056090001
+      "lat": 47.2525056090001,
+      "icon": "fussball"
     },
     {
       "id": 213,
@@ -1914,7 +2126,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.366491264,
-      "lat": 47.2523301430001
+      "lat": 47.2523301430001,
+      "icon": "fitness"
     },
     {
       "id": 214,
@@ -1923,7 +2136,8 @@ const SPORTSTAETTEN = [
       "typ": "Sprungschanze",
       "gruppe": "Wintersport",
       "lng": 11.3995447400001,
-      "lat": 47.2486489830001
+      "lat": 47.2486489830001,
+      "icon": "skisprung"
     },
     {
       "id": 215,
@@ -1932,7 +2146,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.355921102,
-      "lat": 47.2488176150001
+      "lat": 47.2488176150001,
+      "icon": "tennis"
     },
     {
       "id": 216,
@@ -1941,7 +2156,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.355455948,
-      "lat": 47.2487268940001
+      "lat": 47.2487268940001,
+      "icon": "tennis"
     },
     {
       "id": 217,
@@ -1950,7 +2166,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.407306949,
-      "lat": 47.2406017280001
+      "lat": 47.2406017280001,
+      "icon": "fussball"
     },
     {
       "id": 218,
@@ -1959,7 +2176,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.406886495,
-      "lat": 47.2321711980001
+      "lat": 47.2321711980001,
+      "icon": "fitness"
     },
     {
       "id": 219,
@@ -1968,7 +2186,8 @@ const SPORTSTAETTEN = [
       "typ": "Schießstandhalle",
       "gruppe": "Sonstiges",
       "lng": 11.406429525,
-      "lat": 47.230028599
+      "lat": 47.230028599,
+      "icon": "gewehrschiessen"
     },
     {
       "id": 220,
@@ -1977,7 +2196,8 @@ const SPORTSTAETTEN = [
       "typ": "Skigebiet",
       "gruppe": "Wintersport",
       "lng": 11.4133924810001,
-      "lat": 47.228932222
+      "lat": 47.228932222,
+      "icon": "ski_alpin"
     },
     {
       "id": 221,
@@ -1986,7 +2206,8 @@ const SPORTSTAETTEN = [
       "typ": "Eislauf-/Beachvolleyballpl.",
       "gruppe": "Funsport",
       "lng": 11.4138839840001,
-      "lat": 47.2291201100001
+      "lat": 47.2291201100001,
+      "icon": "beachvolleyball"
     },
     {
       "id": 222,
@@ -1995,7 +2216,8 @@ const SPORTSTAETTEN = [
       "typ": "Skigebiet",
       "gruppe": "Wintersport",
       "lng": 11.418588717,
-      "lat": 47.227242302
+      "lat": 47.227242302,
+      "icon": "ski_alpin"
     },
     {
       "id": 223,
@@ -2004,7 +2226,8 @@ const SPORTSTAETTEN = [
       "typ": "Reitanlage",
       "gruppe": "Sonstiges",
       "lng": 11.426643766,
-      "lat": 47.2274855580001
+      "lat": 47.2274855580001,
+      "icon": "reiten"
     },
     {
       "id": 224,
@@ -2013,7 +2236,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4103692780001,
-      "lat": 47.226857425
+      "lat": 47.226857425,
+      "icon": "tennis"
     },
     {
       "id": 225,
@@ -2022,7 +2246,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4105376630001,
-      "lat": 47.2267629990001
+      "lat": 47.2267629990001,
+      "icon": "tennis"
     },
     {
       "id": 226,
@@ -2031,7 +2256,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4107055850001,
-      "lat": 47.226668198
+      "lat": 47.226668198,
+      "icon": "tennis"
     },
     {
       "id": 227,
@@ -2040,7 +2266,8 @@ const SPORTSTAETTEN = [
       "typ": "Reithalle",
       "gruppe": "Sonstiges",
       "lng": 11.428805106,
-      "lat": 47.226432899
+      "lat": 47.226432899,
+      "icon": "reiten"
     },
     {
       "id": 228,
@@ -2049,7 +2276,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4101386900001,
-      "lat": 47.2265862880001
+      "lat": 47.2265862880001,
+      "icon": "tennis"
     },
     {
       "id": 229,
@@ -2058,7 +2286,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4099636240001,
-      "lat": 47.226443653
+      "lat": 47.226443653,
+      "icon": "tennis"
     },
     {
       "id": 230,
@@ -2067,7 +2296,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.409821847,
-      "lat": 47.226325209
+      "lat": 47.226325209,
+      "icon": "tennis"
     },
     {
       "id": 231,
@@ -2076,7 +2306,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennishalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.410377327,
-      "lat": 47.2259162550001
+      "lat": 47.2259162550001,
+      "icon": "tennis"
     },
     {
       "id": 232,
@@ -2085,7 +2316,8 @@ const SPORTSTAETTEN = [
       "typ": "Squashhalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.4107727960001,
-      "lat": 47.2260015690001
+      "lat": 47.2260015690001,
+      "icon": "squash"
     },
     {
       "id": 233,
@@ -2094,7 +2326,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.4209044780001,
-      "lat": 47.2253963810001
+      "lat": 47.2253963810001,
+      "icon": "fussball"
     },
     {
       "id": 234,
@@ -2103,7 +2336,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4100134190001,
-      "lat": 47.225772147
+      "lat": 47.225772147,
+      "icon": "tennis"
     },
     {
       "id": 235,
@@ -2112,7 +2346,8 @@ const SPORTSTAETTEN = [
       "typ": "Skigebiet",
       "gruppe": "Wintersport",
       "lng": 11.423451893,
-      "lat": 47.2237866410001
+      "lat": 47.2237866410001,
+      "icon": "ski_alpin"
     },
     {
       "id": 236,
@@ -2121,7 +2356,8 @@ const SPORTSTAETTEN = [
       "typ": "Bobbahn",
       "gruppe": "Wintersport",
       "lng": 11.434736507,
-      "lat": 47.221038838
+      "lat": 47.221038838,
+      "icon": "bob"
     },
     {
       "id": 237,
@@ -2130,7 +2366,8 @@ const SPORTSTAETTEN = [
       "typ": "Skigebiet",
       "gruppe": "Wintersport",
       "lng": 11.433263912,
-      "lat": 47.212455332
+      "lat": 47.212455332,
+      "icon": "ski_alpin"
     },
     {
       "id": 238,
@@ -2139,7 +2376,8 @@ const SPORTSTAETTEN = [
       "typ": "Klettergarten",
       "gruppe": "Fitness/Klettern",
       "lng": 11.398955076,
-      "lat": 47.217322541
+      "lat": 47.217322541,
+      "icon": "klettern"
     },
     {
       "id": 239,
@@ -2148,7 +2386,8 @@ const SPORTSTAETTEN = [
       "typ": "Klettergarten",
       "gruppe": "Fitness/Klettern",
       "lng": 11.3971812950001,
-      "lat": 47.2171353510001
+      "lat": 47.2171353510001,
+      "icon": "klettern"
     },
     {
       "id": 240,
@@ -2157,7 +2396,8 @@ const SPORTSTAETTEN = [
       "typ": "Klettergarten",
       "gruppe": "Fitness/Klettern",
       "lng": 11.41939489,
-      "lat": 47.21556058
+      "lat": 47.21556058,
+      "icon": "klettern"
     },
     {
       "id": 241,
@@ -2166,7 +2406,8 @@ const SPORTSTAETTEN = [
       "typ": "Basketballplatz",
       "gruppe": "Funsport",
       "lng": 11.4076564960001,
-      "lat": 47.2595450310001
+      "lat": 47.2595450310001,
+      "icon": "basketball"
     },
     {
       "id": 242,
@@ -2175,7 +2416,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.407849346,
-      "lat": 47.2590378310001
+      "lat": 47.2590378310001,
+      "icon": "fussball"
     },
     {
       "id": 243,
@@ -2184,7 +2426,8 @@ const SPORTSTAETTEN = [
       "typ": "Skate-/Rollerbladeplatz",
       "gruppe": "Funsport",
       "lng": 11.408281572,
-      "lat": 47.2589791560001
+      "lat": 47.2589791560001,
+      "icon": "skateboard"
     },
     {
       "id": 244,
@@ -2193,7 +2436,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.4042996430001,
-      "lat": 47.2709247820001
+      "lat": 47.2709247820001,
+      "icon": "fitness"
     },
     {
       "id": 245,
@@ -2202,7 +2446,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.391384843,
-      "lat": 47.2666320380001
+      "lat": 47.2666320380001,
+      "icon": "fitness"
     },
     {
       "id": 246,
@@ -2211,7 +2456,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.4386396250001,
-      "lat": 47.2652503050001
+      "lat": 47.2652503050001,
+      "icon": "fitness"
     },
     {
       "id": 247,
@@ -2220,7 +2466,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.3917841040001,
-      "lat": 47.260964216
+      "lat": 47.260964216,
+      "icon": "fitness"
     },
     {
       "id": 248,
@@ -2229,7 +2476,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.391817814,
-      "lat": 47.2608040370001
+      "lat": 47.2608040370001,
+      "icon": "fitness"
     },
     {
       "id": 249,
@@ -2238,7 +2486,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.377456259,
-      "lat": 47.2561562330001
+      "lat": 47.2561562330001,
+      "icon": "fitness"
     },
     {
       "id": 250,
@@ -2247,7 +2496,8 @@ const SPORTSTAETTEN = [
       "typ": "Minigolfanlage",
       "gruppe": "Golf/Minigolf",
       "lng": 11.447210222,
-      "lat": 47.267184135
+      "lat": 47.267184135,
+      "icon": "minigolf"
     },
     {
       "id": 251,
@@ -2256,7 +2506,8 @@ const SPORTSTAETTEN = [
       "typ": "Skate-/Rollerbladeplatz",
       "gruppe": "Funsport",
       "lng": 11.4478703820001,
-      "lat": 47.26704848
+      "lat": 47.26704848,
+      "icon": "skateboard"
     },
     {
       "id": 252,
@@ -2265,7 +2516,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.4467182600001,
-      "lat": 47.266905228
+      "lat": 47.266905228,
+      "icon": "beachvolleyball"
     },
     {
       "id": 253,
@@ -2274,7 +2526,8 @@ const SPORTSTAETTEN = [
       "typ": "Bocciabahn",
       "gruppe": "Sonstiges",
       "lng": 11.4470884150001,
-      "lat": 47.2669243230001
+      "lat": 47.2669243230001,
+      "icon": "boccia"
     },
     {
       "id": 254,
@@ -2283,7 +2536,8 @@ const SPORTSTAETTEN = [
       "typ": "Freibad",
       "gruppe": "Schwimmen",
       "lng": 11.4468802590001,
-      "lat": 47.265771005
+      "lat": 47.265771005,
+      "icon": "schwimmen"
     },
     {
       "id": 255,
@@ -2292,7 +2546,8 @@ const SPORTSTAETTEN = [
       "typ": "Eislaufplatz",
       "gruppe": "Eissport",
       "lng": 11.442086493,
-      "lat": 47.2705956830001
+      "lat": 47.2705956830001,
+      "icon": "eiskunstlauf"
     },
     {
       "id": 256,
@@ -2301,7 +2556,8 @@ const SPORTSTAETTEN = [
       "typ": "Hallenbad",
       "gruppe": "Schwimmen",
       "lng": 11.3697323390001,
-      "lat": 47.2627116400001
+      "lat": 47.2627116400001,
+      "icon": "schwimmen"
     },
     {
       "id": 257,
@@ -2310,7 +2566,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.369895292,
-      "lat": 47.2624260310001
+      "lat": 47.2624260310001,
+      "icon": "fitness"
     },
     {
       "id": 258,
@@ -2319,7 +2576,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.395080561,
-      "lat": 47.2530754650001
+      "lat": 47.2530754650001,
+      "icon": "fitness"
     },
     {
       "id": 259,
@@ -2328,7 +2586,8 @@ const SPORTSTAETTEN = [
       "typ": "Kegelbahn",
       "gruppe": "Sporthalle",
       "lng": 11.424419127,
-      "lat": 47.270643668
+      "lat": 47.270643668,
+      "icon": "kegeln"
     },
     {
       "id": 260,
@@ -2337,7 +2596,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennishalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.430956929,
-      "lat": 47.2667518230001
+      "lat": 47.2667518230001,
+      "icon": "tennis"
     },
     {
       "id": 261,
@@ -2346,7 +2606,8 @@ const SPORTSTAETTEN = [
       "typ": "Squashhalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.4312735240001,
-      "lat": 47.2667335080001
+      "lat": 47.2667335080001,
+      "icon": "squash"
     },
     {
       "id": 262,
@@ -2355,7 +2616,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennishalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.431597708,
-      "lat": 47.2667202160001
+      "lat": 47.2667202160001,
+      "icon": "tennis"
     },
     {
       "id": 263,
@@ -2364,7 +2626,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.41131262,
-      "lat": 47.2571946460001
+      "lat": 47.2571946460001,
+      "icon": "fitness"
     },
     {
       "id": 264,
@@ -2373,7 +2636,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4115791250001,
-      "lat": 47.257183497
+      "lat": 47.257183497,
+      "icon": "fitness"
     },
     {
       "id": 265,
@@ -2382,7 +2646,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.412258996,
-      "lat": 47.255910166
+      "lat": 47.255910166,
+      "icon": "fitness"
     },
     {
       "id": 266,
@@ -2391,7 +2656,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnessparkour",
       "gruppe": "Fitness/Klettern",
       "lng": 11.4103346520001,
-      "lat": 47.2803596270001
+      "lat": 47.2803596270001,
+      "icon": "fitness"
     },
     {
       "id": 267,
@@ -2400,7 +2666,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.376018038,
-      "lat": 47.2596985660001
+      "lat": 47.2596985660001,
+      "icon": "fitness"
     },
     {
       "id": 268,
@@ -2409,7 +2676,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.376139863,
-      "lat": 47.2581679940001
+      "lat": 47.2581679940001,
+      "icon": "fitness"
     },
     {
       "id": 269,
@@ -2418,7 +2686,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.388896968,
-      "lat": 47.2652165640001
+      "lat": 47.2652165640001,
+      "icon": "fitness"
     },
     {
       "id": 270,
@@ -2427,7 +2696,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.389280768,
-      "lat": 47.2650228030001
+      "lat": 47.2650228030001,
+      "icon": "fitness"
     },
     {
       "id": 271,
@@ -2436,7 +2706,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3915110360001,
-      "lat": 47.2640695250001
+      "lat": 47.2640695250001,
+      "icon": "fitness"
     },
     {
       "id": 272,
@@ -2445,7 +2716,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3912442970001,
-      "lat": 47.2640290250001
+      "lat": 47.2640290250001,
+      "icon": "fitness"
     },
     {
       "id": 273,
@@ -2454,7 +2726,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3859314210001,
-      "lat": 47.272308536
+      "lat": 47.272308536,
+      "icon": "fitness"
     },
     {
       "id": 274,
@@ -2463,7 +2736,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3859551200001,
-      "lat": 47.2721071290001
+      "lat": 47.2721071290001,
+      "icon": "fitness"
     },
     {
       "id": 275,
@@ -2472,7 +2746,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3955461900001,
-      "lat": 47.2580118990001
+      "lat": 47.2580118990001,
+      "icon": "fitness"
     },
     {
       "id": 276,
@@ -2481,7 +2756,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3969648290001,
-      "lat": 47.2680481990001
+      "lat": 47.2680481990001,
+      "icon": "fitness"
     },
     {
       "id": 277,
@@ -2490,7 +2766,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.399071604,
-      "lat": 47.2673387770001
+      "lat": 47.2673387770001,
+      "icon": "fitness"
     },
     {
       "id": 278,
@@ -2499,7 +2776,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.4061583180001,
-      "lat": 47.2634049850001
+      "lat": 47.2634049850001,
+      "icon": "fitness"
     },
     {
       "id": 279,
@@ -2508,7 +2786,8 @@ const SPORTSTAETTEN = [
       "typ": "Squashhalle",
       "gruppe": "Tennis/Squash",
       "lng": 11.405975241,
-      "lat": 47.263274859
+      "lat": 47.263274859,
+      "icon": "squash"
     },
     {
       "id": 280,
@@ -2517,7 +2796,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.415523281,
-      "lat": 47.271303753
+      "lat": 47.271303753,
+      "icon": "fitness"
     },
     {
       "id": 281,
@@ -2526,7 +2806,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.415847872,
-      "lat": 47.2709777650001
+      "lat": 47.2709777650001,
+      "icon": "fitness"
     },
     {
       "id": 282,
@@ -2535,7 +2816,8 @@ const SPORTSTAETTEN = [
       "typ": "Fitnesscenter",
       "gruppe": "Fitness/Klettern",
       "lng": 11.4306641910001,
-      "lat": 47.263464884
+      "lat": 47.263464884,
+      "icon": "fitness"
     },
     {
       "id": 283,
@@ -2544,7 +2826,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4316947720001,
-      "lat": 47.281797463
+      "lat": 47.281797463,
+      "icon": "fitness"
     },
     {
       "id": 284,
@@ -2553,7 +2836,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4213361490001,
-      "lat": 47.264756
+      "lat": 47.264756,
+      "icon": "fitness"
     },
     {
       "id": 285,
@@ -2562,7 +2846,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.4219029610001,
-      "lat": 47.2639065710001
+      "lat": 47.2639065710001,
+      "icon": "fitness"
     },
     {
       "id": 286,
@@ -2571,7 +2856,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.4269403800001,
-      "lat": 47.2736201450001
+      "lat": 47.2736201450001,
+      "icon": "beachvolleyball"
     },
     {
       "id": 287,
@@ -2580,7 +2866,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.3436060540001,
-      "lat": 47.2669613150001
+      "lat": 47.2669613150001,
+      "icon": "leichtathletik"
     },
     {
       "id": 288,
@@ -2589,7 +2876,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.3439349060001,
-      "lat": 47.2669642910001
+      "lat": 47.2669642910001,
+      "icon": "fussball"
     },
     {
       "id": 289,
@@ -2598,7 +2886,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.343170125,
-      "lat": 47.266849645
+      "lat": 47.266849645,
+      "icon": "fussball"
     },
     {
       "id": 290,
@@ -2607,7 +2896,8 @@ const SPORTSTAETTEN = [
       "typ": "Basketballplatz",
       "gruppe": "Funsport",
       "lng": 11.344185265,
-      "lat": 47.2664677010001
+      "lat": 47.2664677010001,
+      "icon": "basketball"
     },
     {
       "id": 291,
@@ -2616,7 +2906,8 @@ const SPORTSTAETTEN = [
       "typ": "Eislauf-/Beachvolleyballpl.",
       "gruppe": "Funsport",
       "lng": 11.343895979,
-      "lat": 47.266431792
+      "lat": 47.266431792,
+      "icon": "beachvolleyball"
     },
     {
       "id": 292,
@@ -2625,7 +2916,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.408388814,
-      "lat": 47.2557239060001
+      "lat": 47.2557239060001,
+      "icon": "leichtathletik"
     },
     {
       "id": 293,
@@ -2634,7 +2926,8 @@ const SPORTSTAETTEN = [
       "typ": "Basketballplatz",
       "gruppe": "Funsport",
       "lng": 11.408677918,
-      "lat": 47.2563019670001
+      "lat": 47.2563019670001,
+      "icon": "basketball"
     },
     {
       "id": 294,
@@ -2643,7 +2936,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.408922687,
-      "lat": 47.2557521350001
+      "lat": 47.2557521350001,
+      "icon": "fussball"
     },
     {
       "id": 295,
@@ -2652,7 +2946,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.4084111940001,
-      "lat": 47.2562419340001
+      "lat": 47.2562419340001,
+      "icon": "leichtathletik"
     },
     {
       "id": 296,
@@ -2661,7 +2956,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.4087440660001,
-      "lat": 47.2551831330001
+      "lat": 47.2551831330001,
+      "icon": "leichtathletik"
     },
     {
       "id": 297,
@@ -2670,7 +2966,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.4096069600001,
-      "lat": 47.2550888910001
+      "lat": 47.2550888910001,
+      "icon": "leichtathletik"
     },
     {
       "id": 298,
@@ -2679,7 +2976,8 @@ const SPORTSTAETTEN = [
       "typ": "Leichtathletikanlage",
       "gruppe": "Sonstiges",
       "lng": 11.408878288,
-      "lat": 47.2551338000001
+      "lat": 47.2551338000001,
+      "icon": "leichtathletik"
     },
     {
       "id": 299,
@@ -2688,7 +2986,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4080301110001,
-      "lat": 47.258603647
+      "lat": 47.258603647,
+      "icon": "fussball"
     },
     {
       "id": 300,
@@ -2697,7 +2996,8 @@ const SPORTSTAETTEN = [
       "typ": "Streetballplatz",
       "gruppe": "Funsport",
       "lng": 11.407496544,
-      "lat": 47.2585705810001
+      "lat": 47.2585705810001,
+      "icon": "fussball"
     },
     {
       "id": 301,
@@ -2706,7 +3006,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4075123600001,
-      "lat": 47.258430897
+      "lat": 47.258430897,
+      "icon": "fussball"
     },
     {
       "id": 302,
@@ -2715,7 +3016,8 @@ const SPORTSTAETTEN = [
       "typ": "Freibad",
       "gruppe": "Schwimmen",
       "lng": 11.415301539,
-      "lat": 47.228429304
+      "lat": 47.228429304,
+      "icon": "schwimmen"
     },
     {
       "id": 303,
@@ -2724,7 +3026,8 @@ const SPORTSTAETTEN = [
       "typ": "Golfplatz",
       "gruppe": "Golf/Minigolf",
       "lng": 11.4241251620001,
-      "lat": 47.224460827
+      "lat": 47.224460827,
+      "icon": "golf"
     },
     {
       "id": 304,
@@ -2733,7 +3036,8 @@ const SPORTSTAETTEN = [
       "typ": "Billard",
       "gruppe": "Sonstiges",
       "lng": 11.375669881,
-      "lat": 47.264522232
+      "lat": 47.264522232,
+      "icon": "billard"
     },
     {
       "id": 305,
@@ -2742,7 +3046,8 @@ const SPORTSTAETTEN = [
       "typ": "Billard",
       "gruppe": "Sonstiges",
       "lng": 11.3986428270001,
-      "lat": 47.2608461720001
+      "lat": 47.2608461720001,
+      "icon": "billard"
     },
     {
       "id": 306,
@@ -2751,7 +3056,8 @@ const SPORTSTAETTEN = [
       "typ": "Billard",
       "gruppe": "Sonstiges",
       "lng": 11.390696587,
-      "lat": 47.2610665130001
+      "lat": 47.2610665130001,
+      "icon": "billard"
     },
     {
       "id": 307,
@@ -2760,7 +3066,8 @@ const SPORTSTAETTEN = [
       "typ": "Billard",
       "gruppe": "Sonstiges",
       "lng": 11.410479309,
-      "lat": 47.270304416
+      "lat": 47.270304416,
+      "icon": "billard"
     },
     {
       "id": 308,
@@ -2769,7 +3076,8 @@ const SPORTSTAETTEN = [
       "typ": "Billard",
       "gruppe": "Sonstiges",
       "lng": 11.4372088980001,
-      "lat": 47.27857605
+      "lat": 47.27857605,
+      "icon": "billard"
     },
     {
       "id": 309,
@@ -2778,7 +3086,8 @@ const SPORTSTAETTEN = [
       "typ": "Billard",
       "gruppe": "Sonstiges",
       "lng": 11.3785402890001,
-      "lat": 47.257703545
+      "lat": 47.257703545,
+      "icon": "billard"
     },
     {
       "id": 310,
@@ -2787,7 +3096,8 @@ const SPORTSTAETTEN = [
       "typ": "Skate-/Rollerbladehalle",
       "gruppe": "Funsport",
       "lng": 11.4144911720001,
-      "lat": 47.277074832
+      "lat": 47.277074832,
+      "icon": "skateboard"
     },
     {
       "id": 311,
@@ -2796,7 +3106,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.393195389,
-      "lat": 47.263281975
+      "lat": 47.263281975,
+      "icon": "fitness"
     },
     {
       "id": 312,
@@ -2805,7 +3116,8 @@ const SPORTSTAETTEN = [
       "typ": "Minigolfanlage",
       "gruppe": "Golf/Minigolf",
       "lng": 11.3287553660001,
-      "lat": 47.2621632180001
+      "lat": 47.2621632180001,
+      "icon": "minigolf"
     },
     {
       "id": 313,
@@ -2814,7 +3126,8 @@ const SPORTSTAETTEN = [
       "typ": "Skate-/Rollerbladeplatz",
       "gruppe": "Funsport",
       "lng": 11.347403166,
-      "lat": 47.254430536
+      "lat": 47.254430536,
+      "icon": "skateboard"
     },
     {
       "id": 314,
@@ -2823,7 +3136,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.327870257,
-      "lat": 47.265324816
+      "lat": 47.265324816,
+      "icon": "fussball"
     },
     {
       "id": 315,
@@ -2832,7 +3146,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4446947060001,
-      "lat": 47.264862427
+      "lat": 47.264862427,
+      "icon": "fussball"
     },
     {
       "id": 316,
@@ -2841,7 +3156,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4111110540001,
-      "lat": 47.2269763790001
+      "lat": 47.2269763790001,
+      "icon": "tennis"
     },
     {
       "id": 317,
@@ -2850,7 +3166,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4107497000001,
-      "lat": 47.227150529
+      "lat": 47.227150529,
+      "icon": "tennis"
     },
     {
       "id": 318,
@@ -2859,7 +3176,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.41093363,
-      "lat": 47.2270602410001
+      "lat": 47.2270602410001,
+      "icon": "tennis"
     },
     {
       "id": 319,
@@ -2868,7 +3186,8 @@ const SPORTSTAETTEN = [
       "typ": "Reithalle",
       "gruppe": "Sonstiges",
       "lng": 11.4276649290001,
-      "lat": 47.22758449
+      "lat": 47.22758449,
+      "icon": "reiten"
     },
     {
       "id": 320,
@@ -2877,7 +3196,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.425270579,
-      "lat": 47.270409618
+      "lat": 47.270409618,
+      "icon": "fussball"
     },
     {
       "id": 321,
@@ -2886,7 +3206,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.424844019,
-      "lat": 47.270925102
+      "lat": 47.270925102,
+      "icon": "tennis"
     },
     {
       "id": 322,
@@ -2895,7 +3216,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4258569670001,
-      "lat": 47.270902504
+      "lat": 47.270902504,
+      "icon": "tennis"
     },
     {
       "id": 323,
@@ -2904,7 +3226,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.425647064,
-      "lat": 47.271165024
+      "lat": 47.271165024,
+      "icon": "tennis"
     },
     {
       "id": 324,
@@ -2913,7 +3236,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.425413233,
-      "lat": 47.2710902440001
+      "lat": 47.2710902440001,
+      "icon": "tennis"
     },
     {
       "id": 325,
@@ -2922,7 +3246,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4252042430001,
-      "lat": 47.271023746
+      "lat": 47.271023746,
+      "icon": "tennis"
     },
     {
       "id": 326,
@@ -2931,7 +3256,8 @@ const SPORTSTAETTEN = [
       "typ": "Tennisplatz",
       "gruppe": "Tennis/Squash",
       "lng": 11.4258715340001,
-      "lat": 47.2712442700001
+      "lat": 47.2712442700001,
+      "icon": "tennis"
     },
     {
       "id": 327,
@@ -2940,7 +3266,8 @@ const SPORTSTAETTEN = [
       "typ": "Hallenbad",
       "gruppe": "Schwimmen",
       "lng": 11.446984774,
-      "lat": 47.269449412
+      "lat": 47.269449412,
+      "icon": "schwimmen"
     },
     {
       "id": 328,
@@ -2949,7 +3276,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.446448543,
-      "lat": 47.260432682
+      "lat": 47.260432682,
+      "icon": "fussball"
     },
     {
       "id": 329,
@@ -2958,7 +3286,8 @@ const SPORTSTAETTEN = [
       "typ": "Skigebiet",
       "gruppe": "Wintersport",
       "lng": 11.379665803,
-      "lat": 47.3076071070001
+      "lat": 47.3076071070001,
+      "icon": "ski_alpin"
     },
     {
       "id": 330,
@@ -2967,7 +3296,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.400411154,
-      "lat": 47.276106687
+      "lat": 47.276106687,
+      "icon": "fussball"
     },
     {
       "id": 331,
@@ -2976,7 +3306,8 @@ const SPORTSTAETTEN = [
       "typ": "Kegelbahn",
       "gruppe": "Sporthalle",
       "lng": 11.389326458,
-      "lat": 47.2587315390001
+      "lat": 47.2587315390001,
+      "icon": "kegeln"
     },
     {
       "id": 332,
@@ -2985,7 +3316,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3892098260001,
-      "lat": 47.2588708100001
+      "lat": 47.2588708100001,
+      "icon": "fitness"
     },
     {
       "id": 333,
@@ -2994,7 +3326,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.414281177,
-      "lat": 47.2550371390001
+      "lat": 47.2550371390001,
+      "icon": "fussball"
     },
     {
       "id": 334,
@@ -3003,7 +3336,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.4152111510001,
-      "lat": 47.255194998
+      "lat": 47.255194998,
+      "icon": "fussball"
     },
     {
       "id": 335,
@@ -3012,7 +3346,8 @@ const SPORTSTAETTEN = [
       "typ": "Fußballplatz",
       "gruppe": "Fußball/Football",
       "lng": 11.416186258,
-      "lat": 47.2553232810001
+      "lat": 47.2553232810001,
+      "icon": "fussball"
     },
     {
       "id": 336,
@@ -3021,7 +3356,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.407587947,
-      "lat": 47.2597127080001
+      "lat": 47.2597127080001,
+      "icon": "beachvolleyball"
     },
     {
       "id": 337,
@@ -3030,7 +3366,8 @@ const SPORTSTAETTEN = [
       "typ": "Beachvolleyballplatz",
       "gruppe": "Funsport",
       "lng": 11.4075475550001,
-      "lat": 47.2598363210001
+      "lat": 47.2598363210001,
+      "icon": "beachvolleyball"
     },
     {
       "id": 338,
@@ -3039,7 +3376,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.419417733,
-      "lat": 47.2770329460001
+      "lat": 47.2770329460001,
+      "icon": "fussball"
     },
     {
       "id": 339,
@@ -3048,7 +3386,8 @@ const SPORTSTAETTEN = [
       "typ": "Sportplatz",
       "gruppe": "Spielplatz",
       "lng": 11.4315380570001,
-      "lat": 47.259831751
+      "lat": 47.259831751,
+      "icon": "fussball"
     },
     {
       "id": 340,
@@ -3057,7 +3396,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.396121088,
-      "lat": 47.2681155930001
+      "lat": 47.2681155930001,
+      "icon": "fitness"
     },
     {
       "id": 341,
@@ -3066,7 +3406,8 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.3818720370001,
-      "lat": 47.2645923260001
+      "lat": 47.2645923260001,
+      "icon": "fitness"
     },
     {
       "id": 342,
@@ -3075,6 +3416,7 @@ const SPORTSTAETTEN = [
       "typ": "Sporthalle",
       "gruppe": "Sporthalle",
       "lng": 11.37391287,
-      "lat": 47.2641261850001
+      "lat": 47.2641261850001,
+      "icon": "fitness"
     }
    ]

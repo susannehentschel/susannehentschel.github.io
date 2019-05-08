@@ -77,3 +77,22 @@ kartenLayer.osm.addTo(karte);
 karte.setView(
     [47.267222, 11.392778],15  
 );
+
+//AWS Daten zur Karte hinzufügen
+//console.log(AWS);
+
+//Neue featureGroup awsTirol
+const awsTirol = L.featureGroup();
+
+//Marker setzen und Popup hinzufügen mit Inhalt "Hallo"
+L.geoJson(AWS)
+//Funktion hinzufügen, damit verschiedene Atrribute des Popup eingebunden werden
+.bindPopup(function(layer) {
+    console.log("Layer:", layer);
+    return `Temperatur: ${layer.feature.properties.LT}`;  
+})
+.addTo(awsTirol);
+awsTirol.addTo(karte);
+
+//Ausschnitt auf featureGroup (alle feature werden angezeigt --> perfekter zoom)
+karte.fitBounds(awsTirol.getBounds());

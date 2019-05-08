@@ -89,7 +89,8 @@ L.geoJson(AWS)
 //Funktion hinzufügen, damit verschiedene Atrribute des Popup eingebunden werden
 .bindPopup(function(layer) {
     console.log("Layer:", layer);
-    return `Temperatur: ${layer.feature.properties.LT}`;  
+    return `Temperatur: ${layer.feature.properties.LT} °C <br>
+    Datum: ${layer.feature.properties.date}`;  
 })
 .addTo(awsTirol);
 awsTirol.addTo(karte);

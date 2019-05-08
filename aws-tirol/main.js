@@ -112,14 +112,15 @@ async function loadStations() {
 
     //Marker ein und ausschalten --> vorher aber Konstante bei L.control hinzufügen als const layerControl = 
     layerControl.addOverlay(awsTirol, "Wetterstationen Tirol");
+    const windLayer = L.featureGroup();
 
-    //Dartsellung der Windrichtung
+    //Dartsellung der Windrichtung über style deg kann der Pfiel um 360° je nach Windrichtung rotieren
     L.geoJson(stations, {
         pointToLayer: function(feature, latlng) {
             if (feature.properties.WR) {
                 return L.marker(latlng, {
                     icon: L.divIcon({
-                        html:  '<i style="transform: rotate(${}deg)" class="fas fa-arrow-circle-up"></i>'
+                        html:  `<i style="transform: rotate(${feature.properties.WR}deg)" class="fas fa-arrow-circle-up fa-3x"></i>`
                     })
                 });
             }

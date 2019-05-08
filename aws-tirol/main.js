@@ -56,7 +56,7 @@ const kartenLayer = {
 };
 
 //Auswahlmenü hinzufügen
-L.control.layers({
+const layerControl = L.control.layers({
     "Geoland basemap": kartenLayer.geolandbasemap,
     "Geoland basemap grau": kartenLayer.bmapgrau,
     "OpenStreetMap": kartenLayer.osm,
@@ -65,9 +65,9 @@ L.control.layers({
     "Geoland basemap Orthofoto 30cm": kartenLayer.bmaporthofoto30cm,
     "Geoland basemap Gelände": kartenLayer.bmapgelaende,
     "Geoland basemap Oberfläche": kartenLayer.bmapoberflaeche,
-    "Stamen Toner" : kartenLayer.stamen_toner,
-    "Stamen Terrain" : kartenLayer.stamen_terrain,
-    "Stamen Watercolor" : kartenLayer.stamen_watercolor
+    "Stamen Toner": kartenLayer.stamen_toner,
+    "Stamen Terrain": kartenLayer.stamen_terrain,
+    "Stamen Watercolor": kartenLayer.stamen_watercolor
 }).addTo(karte);
 
 //OpenStreetMap zur Karte hinzufügen und anzeigen lassen
@@ -75,25 +75,56 @@ kartenLayer.osm.addTo(karte);
 
 //Auf Auschnitt zoomen
 karte.setView(
-    [47.267222, 11.392778],15  
+    [47.267222, 11.392778], 15
 );
 
 //AWS Daten zur Karte hinzufügen
-//console.log(AWS);
 
-//Neue featureGroup awsTirol
-const awsTirol = L.featureGroup();
+//Live Daten einbinden
+async function loadStations() {
+    const response = await fetch("https://aws.openweb.cc/stations");
+    const stations = await response.json();
+    //Neue featureGroup awsTirol
+    const awsTirol = L.featureGroup();
 
-//Marker setzen und Popup hinzufügen mit Inhalt "Hallo"
-L.geoJson(AWS)
-//Funktion hinzufügen, damit verschiedene Atrribute des Popup eingebunden werden
-.bindPopup(function(layer) {
-    console.log("Layer:", layer);
-    return `Temperatur: ${layer.feature.properties.LT} °C <br>
-    Datum: ${layer.feature.properties.date}`;  
-})
-.addTo(awsTirol);
-awsTirol.addTo(karte);
+    //Marker setzen und Popup hinzufügen mit Inhalt "Hallo"
+    L.geoJson(stations)
+        //Funktion hinzufügen, damit verschiedene Atrribute des Popup eingebunden werden
+        .bindPopup(function (layer) {
+            //console.log("Layer:", layer);
+            const date = new Date(layer.feature.properties.date);
+            console.log("Datum:", date);
+            return `<h4>${layer.feature.properties.name}</h4>
+            Höhe: ${layer.feature.geometry.coordinates[2]} m <br>
+            Temperatur: ${layer.feature.properties.LT} °C <br>
+            Datum: ${date.toLocaleDateString("de-AT")}
+            ${date.toLocaleTimeString("de-AT")} <br>
+            Windgeschwindigkeit:${layer.feature.properties.WG ? layer.feature.properties.WG + ' km/h' : ' keine Daten'}
+            <hr>
+            <footer>Quelle: Land Tirol - <a href="https://data.tirol.gv.at">data.tirol.gv.at</a></footer>
+            `;
+        }) //Windgeschwindigkeit mit if abfrage, wenn keine Daten vorhanden sind
+        .addTo(awsTirol);
+    awsTirol.addTo(karte);
 
-//Ausschnitt auf featureGroup (alle feature werden angezeigt --> perfekter zoom)
-karte.fitBounds(awsTirol.getBounds());
+    //Ausschnitt auf featureGroup (alle feature werden angezeigt --> perfekter zoom)
+    karte.fitBounds(awsTirol.getBounds());
+
+    //Marker ein und ausschalten --> vorher aber Konstante bei L.control hinzufügen als const layerControl = 
+    layerControl.addOverlay(awsTirol, "Wetterstationen Tirol");
+
+    //Dartsellung der Windrichtung
+    L.geoJson(stations, {
+        pointToLayer: function(feature, latlng) {
+            if (feature.properties.WR) {
+                return L.marker(latlng, {
+                    icon: L.divIcon({
+                        html:  '<i style="transform: rotate(${}deg)" class="fas fa-arrow-circle-up"></i>'
+                    })
+                });
+            }
+        }
+    }).addTo(karte)
+
+}
+loadStations();

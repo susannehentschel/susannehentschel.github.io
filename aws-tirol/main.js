@@ -136,18 +136,27 @@ async function loadStations() {
 
     //featureGroup für den Temperaturlayer, damit diese ein und ausgeschalten werden können
     const temperaturLayer = L.featureGroup();
+    const farbPalette = [
+      [0,"blue"], //name oder raute und rgb wert also fff um farge zu bestimmen
+      [1,"gelb"],
+      [5,"orange"],
+    ];
 
-    //Dartsellung der Windrichtung über style deg kann der Pfiel um 360° je nach Windrichtung rotieren
+    //Dartsellung der Temperatur
     L.geoJson(stations, {
         pointToLayer: function(feature, latlng) {
             if (feature.properties.LT) {
                 let color = 'blue';
-                if (feature.properties.LT > 0) {
-                    color = 'red';
+                for(let i=0; i<farbPalette.length; i++){
+                    console.log(farbPalette[i], feature.properties.LT);
+                    if (feature.properties.LT < farbPalette[i][0]){
+                        color = farbPalette[i][1];
+                        break;
+                    }
                 }
                 return L.marker(latlng, {
                     icon: L.divIcon({
-                        html:  `<div style= "color:${color}">${feature.properties.LT}</div>`
+                        html:  `<div  class="temperaturLabel" style="background-color:${color}" >${feature.properties.LT}</div>`
                     })
                 });
             }

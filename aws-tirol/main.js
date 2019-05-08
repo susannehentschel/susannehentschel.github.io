@@ -71,7 +71,7 @@ const layerControl = L.control.layers({
 }).addTo(karte);
 
 //OpenStreetMap zur Karte hinzufügen und anzeigen lassen
-kartenLayer.osm.addTo(karte);
+kartenLayer.geolandbasemap.addTo(karte);
 
 //Auf Auschnitt zoomen
 karte.setView(
@@ -105,27 +105,56 @@ async function loadStations() {
             `;
         }) //Windgeschwindigkeit mit if abfrage, wenn keine Daten vorhanden sind
         .addTo(awsTirol);
-    awsTirol.addTo(karte);
 
     //Ausschnitt auf featureGroup (alle feature werden angezeigt --> perfekter zoom)
     karte.fitBounds(awsTirol.getBounds());
 
     //Marker ein und ausschalten --> vorher aber Konstante bei L.control hinzufügen als const layerControl = 
     layerControl.addOverlay(awsTirol, "Wetterstationen Tirol");
+
+    //featureGroup für die Windlayer, damit diese ein und ausgeschalten werden können
     const windLayer = L.featureGroup();
 
     //Dartsellung der Windrichtung über style deg kann der Pfiel um 360° je nach Windrichtung rotieren
     L.geoJson(stations, {
         pointToLayer: function(feature, latlng) {
             if (feature.properties.WR) {
+                let color = 'black';
+                if (feature.properties.WG > 20) {
+                    color = 'red';
+                }
                 return L.marker(latlng, {
                     icon: L.divIcon({
-                        html:  `<i style="transform: rotate(${feature.properties.WR}deg)" class="fas fa-arrow-circle-up fa-3x"></i>`
+                        html:  `<i style="color: ${color};transform: rotate(${feature.properties.WR}deg)" class="fas fa-arrow-circle-up fa-3x"></i>`
                     })
                 });
             }
         }
-    }).addTo(karte)
+    }).addTo(windLayer)
+    layerControl.addOverlay(windLayer, "Windrichtung");
+    windLayer.addTo(karte);
+
+    //featureGroup für den Temperaturlayer, damit diese ein und ausgeschalten werden können
+    const temperaturLayer = L.featureGroup();
+
+    //Dartsellung der Windrichtung über style deg kann der Pfiel um 360° je nach Windrichtung rotieren
+    L.geoJson(stations, {
+        pointToLayer: function(feature, latlng) {
+            if (feature.properties.LT) {
+                let color = 'blue';
+                if (feature.properties.LT > 0) {
+                    color = 'red';
+                }
+                return L.marker(latlng, {
+                    icon: L.divIcon({
+                        html:  `<div style= "color:${color}">${feature.properties.LT}</div>`
+                    })
+                });
+            }
+        }
+    }).addTo(temperaturLayer)
+    layerControl.addOverlay(temperaturLayer, "Temperatur");
+    temperaturLayer.addTo(karte);
 
 }
 loadStations();

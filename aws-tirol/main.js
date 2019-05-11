@@ -137,9 +137,27 @@ async function loadStations() {
     //featureGroup für den Temperaturlayer, damit diese ein und ausgeschalten werden können
     const temperaturLayer = L.featureGroup();
     const farbPalette = [
-      [0,"blue"], //name oder raute und rgb wert also fff um farge zu bestimmen
-      [1,"gelb"],
-      [5,"orange"],
+      [-28,"#646664"], //name oder raute und rgb wert also fff um farge zu bestimmen
+      [-26,"#8c8a8c"],
+      [-24,"#006391"],
+      [-22,"#cccecc"],
+      [-20,"#e4e6e4"],
+      [-18,"#772d76"],
+      [-16,"#b123b0"],
+      [-14,"#d219d1"],
+      [-12,"#f0f"],
+      [-10,"#ff94ff"],
+      [-8,"#006391"],
+      [-6,"#325afe"],
+      [-4,"#2695ff"],
+      [-2,"#00cdff"],
+      [0,"#00fffe"],
+      [2,"#007800"],
+      [4,"#009d00"],
+      [6,"#00bc02"],
+      [8,"#00e200"],
+      [10,"#0f0"],
+
     ];
 
     //Dartsellung der Temperatur

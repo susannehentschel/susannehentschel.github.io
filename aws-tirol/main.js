@@ -114,6 +114,19 @@ async function loadStations() {
 
     //featureGroup für die Windlayer, damit diese ein und ausgeschalten werden können
     const windLayer = L.featureGroup();
+    const windgeschwindigkeitLayer = L.featureGroup();
+
+    const farbPaletteWG = [
+        [11,"#00b900"],
+        [28,"#10cd24"],
+        [38,"#72d475"],
+        [49,"#fed6d3"],
+        [61,"#ff9e9a"],
+        [74,"#ff8281"],
+        [88,"#ff6160"],
+        [102,"#ff453c"],
+        [117,"#ff200e"],
+    ];
 
     //Dartsellung der Windrichtung über style deg kann der Pfiel um 360° je nach Windrichtung rotieren
     L.geoJson(stations, {
@@ -133,6 +146,29 @@ async function loadStations() {
     }).addTo(windLayer)
     layerControl.addOverlay(windLayer, "Windrichtung");
     windLayer.addTo(karte);
+
+    // Windgeschwindigkeit
+    L.geoJson(stations, {
+        pointToLayer: function(feature, latlng) {
+            if (feature.properties.WG) {
+                let color = 'blue';
+                for(let i=0; i<farbPaletteWG.length; i++){
+                    console.log(farbPaletteWG[i], feature.properties.WG);
+                    if (feature.properties.WG < farbPaletteWG[i][0]){
+                        color = farbPaletteWG[i][1];
+                        break;
+                    }
+                }
+                return L.marker(latlng, {
+                    icon: L.divIcon({
+                        html:  `<div  class="windgeschwindigkeitLabel" style="background-color:${color}" >${feature.properties.WG}</div>`
+                    })
+                });
+            }
+        }
+    }).addTo(windgeschwindigkeitLayer)
+    layerControl.addOverlay(windgeschwindigkeitLayer, "Windgeschwindigkeit");
+    windgeschwindigkeitLayer.addTo(karte);
 
     //featureGroup für den Temperaturlayer, damit diese ein und ausgeschalten werden können
     const temperaturLayer = L.featureGroup();
@@ -157,7 +193,25 @@ async function loadStations() {
       [6,"#00bc02"],
       [8,"#00e200"],
       [10,"#0f0"],
-
+      [12,"#fcff00"],
+      [14,"#fdf200"],
+      [16,"#fde100"],
+      [18,"#ffd100"],
+      [20,"#ffbd00"],
+      [22,"#ffad00"],
+      [24,"#ff9c00"],
+      [26,"#ff7800"],
+      [28,"red"],
+      [30,"#f30102"],
+      [32,"#d20000"],
+      [34,"#c10000"],
+      [36,"#b10000"],
+      [38,"#a10000"],
+      [40,"#900000"],
+      [42,"#770100"],
+      [44,"#5f0100"],
+      [46,"#460101"],
+      [48,"#2e0203"],
     ];
 
     //Dartsellung der Temperatur
@@ -182,6 +236,42 @@ async function loadStations() {
     }).addTo(temperaturLayer)
     layerControl.addOverlay(temperaturLayer, "Temperatur");
     temperaturLayer.addTo(karte);
+
+//featureGroup für den relFeuchteLayer, damit diese ein und ausgeschalten werden können
+const relFeuchteLayer = L.featureGroup();
+const farbPaletteFeuchte = [
+    [30,"rgb(238, 238, 238)"],
+    [40,"rgb(221, 221, 221)"],
+    [50,"rgb(198, 201, 206)"],
+    [60,"rgb(187, 187, 187)"],
+    [70,"rgb(170, 170, 204)"],
+    [80,"rgb(153, 152, 221)"],
+    [90,"rgb(135, 136, 238)"],
+    [100,"rgb(118, 119, 225)"],
+];
+
+    //Darstellung der relativen Feuchte
+    L.geoJson(stations, {
+        pointToLayer: function(feature, latlng) {
+            if (feature.properties.RH) {
+                let color = 'blue';
+                for(let i=0; i<farbPaletteFeuchte.length; i++){
+                    console.log(farbPaletteFeuchte[i], feature.properties.RH);
+                    if (feature.properties.RH < farbPaletteFeuchte[i][0]){
+                        color = farbPaletteFeuchte[i][1];
+                        break;
+                    }
+                }
+                return L.marker(latlng, {
+                    icon: L.divIcon({
+                        html:  `<div  class="relFeuchteLabel" style="background-color:${color}" >${feature.properties.RH}</div>`
+                    })
+                });
+            }
+        }
+    }).addTo(relFeuchteLayer)
+    layerControl.addOverlay(relFeuchteLayer, "relative Feuchte");
+    relFeuchteLayer.addTo(karte);
 
 }
 loadStations();

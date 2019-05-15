@@ -109,3 +109,10 @@ async function loadSights(url) {
 }
 
 loadSights(url);
+
+//Maßstab einbauen
+const massstab = L.control.scale({
+    imperial: false,
+    metric: true,
+});
+karte.addControl(massstab);

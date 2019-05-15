@@ -125,3 +125,32 @@ const massstab = L.control.scale({
     metric: true,
 });
 karte.addControl(massstab);
+
+//Spazierwege hinzufügen
+const wege = 'https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:SPAZIERLINIEOGD &srsName=EPSG:4326&outputFormat=json'
+
+//Popup an den Linien anheften
+function linienPopup(feature, layer) {
+    const popup = `
+    <h3>${feature.properties.NAME}</h3>
+    <p><a href="${feature.properties.WEITERE_INF}">Weblink</a></p>`;
+    layer.bindPopup(popup); 
+}
+
+async function loadWege(wegeUrl) {
+    const response = await fetch(wegeUrl)
+    const wegeData = await response.json();
+    const wegeJson = L.geoJson(wegeData, {
+        //Wegenetz grün färben
+        style: function() {
+            return {
+                color: "green"
+            };
+        },
+        //Linienpopup
+        onEachFeature: linienPopup
+    });
+    karte.addLayer(wegeJson);
+    layerControl.addOverlay(wegeJson, "Spazierwege");
+}
+loadWege(wege);

@@ -76,31 +76,35 @@ const url = ' https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&v
 
 //Marker anders gestalten
 function makeMarker(feature, latlng) {
-    const icon = L.icon(
+    const fotoicon = L.icon(
         {
             iconUrl: 'http://www.data.wien.gv.at/icons/sehenswuerdigogd.svg',
             iconSize: [36,36]
         });
-    const marker = L.marker(latlng, {
-        icon: icon //Marker ein icon geben sonst normaler blauer Standardmarker
+    const sightMarker = L.marker(latlng, {
+        icon: fotoicon //Marker ein icon geben sonst normaler blauer Standardmarker
     });
-    marker.bindPopup(`
+    //Variable innerhalb der Funktion:
+    sightMarker.bindPopup(`
     <h3>${feature.properties.NAME}</h3>
     <p>${feature.properties.BEMERKUNG}</p>
     <hr>
     <footer><a href="${feature.properties.WEITERE_INF}">Weblink</a></footer>
     `);
-    return marker;
+    return sightMarker;
 }
 
-//Funktion asynchoner Prozess, auf Daten warten und dann umwandeln in json
+//Funktion asynchoner Prozess, auf Daten warten und dann umwandeln in json + Cluster für Marker bilden (vorher im html eingearbeitet)
 async function loadSights(url) {
+    const clusterGruppe = L.markerClusterGroup();
     const response = await fetch(url);
     const sightsData = await response.json();
     const geoJson = L.geoJson(sightsData, {
         pointToLayer: makeMarker
     });
-    karte.addLayer(geoJson);
+    clusterGruppe.addLayer(geoJson);
+    karte.addLayer(clusterGruppe);
+    layerControl.addOverlay(clusterGruppe, "Sehnswürdigkeiten");
 }
 
 loadSights(url);

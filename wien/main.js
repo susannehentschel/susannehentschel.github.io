@@ -89,7 +89,7 @@ function makeMarker(feature, latlng) {
     <h3>${feature.properties.NAME}</h3>
     <p>${feature.properties.BEMERKUNG}</p>
     <hr>
-    <footer><a href="${feature.properties.WEITERE_INF}">Weblink</a></footer>
+    <footer><a target=blanc href="${feature.properties.WEITERE_INF}">Weblink</a></footer>
     `);
     return sightMarker;
 }
@@ -133,7 +133,7 @@ const wege = 'https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&v
 function linienPopup(feature, layer) {
     const popup = `
     <h3>${feature.properties.NAME}</h3>
-    <p><a href="${feature.properties.WEITERE_INF}">Weblink</a></p>`;
+    `;
     layer.bindPopup(popup); 
 }
 

@@ -104,6 +104,7 @@ async function loadSights(url) {
     });
     clusterGruppe.addLayer(geoJson);
     karte.addLayer(clusterGruppe);
+    //Layer zur Kontrollstation oben rechts (ein- und ausschalten) hinzufügen
     layerControl.addOverlay(clusterGruppe, "Sehnswürdigkeiten");
 }
 

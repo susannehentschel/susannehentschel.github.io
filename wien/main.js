@@ -96,16 +96,24 @@ function makeMarker(feature, latlng) {
 
 //Funktion asynchoner Prozess, auf Daten warten und dann umwandeln in json + Cluster für Marker bilden (vorher im html eingearbeitet)
 async function loadSights(url) {
-    const clusterGruppe = L.markerClusterGroup();
+    const sehenswuerdigkeitenClusterGruppe = L.markerClusterGroup();
     const response = await fetch(url);
     const sightsData = await response.json();
     const geoJson = L.geoJson(sightsData, {
         pointToLayer: makeMarker
     });
-    clusterGruppe.addLayer(geoJson);
-    karte.addLayer(clusterGruppe);
+    sehenswuerdigkeitenClusterGruppe.addLayer(geoJson);
+    karte.addLayer(sehenswuerdigkeitenClusterGruppe);
     //Layer zur Kontrollstation oben rechts (ein- und ausschalten) hinzufügen
-    layerControl.addOverlay(clusterGruppe, "Sehnswürdigkeiten");
+    layerControl.addOverlay(sehenswuerdigkeitenClusterGruppe, "Sehnswürdigkeiten");
+
+    //Search Plugin einfügen
+    const suchFeld = new L.Control.Search({
+        layer: sehenswuerdigkeitenClusterGruppe,
+        propertyName: "NAME",
+        zoom: 17
+    });
+    karte.addControl(suchFeld);
 }
 
 loadSights(url);

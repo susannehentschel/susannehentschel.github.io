@@ -79,7 +79,7 @@ function makeMarker(feature, latlng) {
     const fotoicon = L.icon(
         {
             iconUrl: 'http://www.data.wien.gv.at/icons/sehenswuerdigogd.svg',
-            iconSize: [36,36]
+            iconSize: [16,16]
         });
     const sightMarker = L.marker(latlng, {
         icon: fotoicon //Marker ein icon geben sonst normaler blauer Standardmarker
@@ -111,7 +111,8 @@ async function loadSights(url) {
     const suchFeld = new L.Control.Search({
         layer: sehenswuerdigkeitenClusterGruppe,
         propertyName: "NAME",
-        zoom: 17
+        zoom: 17,
+        initial: false //innerhalb der ganzen eichenkette wird Begriff gesucht --> Davor nur am Satzanfang gesucht
     });
     karte.addControl(suchFeld);
 }

@@ -67,6 +67,48 @@ kartenLayer.bmapgrau.addTo(karte);
 
 karte.addControl(new L.Control.Fullscreen());
 
+//Wikipedia Artikel einbauen
+const wikipediaGruppe = L.featureGroup().addTo(karte); //FeatureGruop damit Gesamtgruppe an Kontrolleiste geheftet werden kann 
+layerControl.addOverlay(wikipediaGruppe, "Wikipedia Artikel");
+async function wikipediaArtikelLaden(url) {
+    console.log("Laden", url);
+
+    const response = await fetch(url);
+    const jsonDaten = await response.json();
+    console.log(jsonDaten);
+
+    //Marker setzen
+    for (let artikel of jsonDaten.geonames) {
+        const wikipediaMarker = L.marker([artikel.lat, artikel.lng], {
+            icon: L.icon({
+                iconUrl: 'icons/wikipedia.png',
+                iconSize: [30, 30]
+            })
+        }).addTo(wikipediaGruppe); //nicht mehr Karte, damit es an der Kontrollleiste ein und ausgeschalten werden kann 
+
+        //Popup hinzufügen
+        wikipediaMarker.bindPopup(`
+    <h3>${artikel.title}</h3>  
+    <p>${artikel.summary}</p>
+    <hr>
+    <footer><a target="_blank" href="https://${artikel.wikipediaUrl}">Weblink</a></footer>
+    `);
+    }
+}
+
+karte.on("load zoomend moveend", function () {
+    let ausschnitt = {
+        n: karte.getBounds().getNorth(),
+        s: karte.getBounds().getSouth(),
+        e: karte.getBounds().getEast(),
+        w: karte.getBounds().getWest(),
+    }
+    const geonamesUrl = `http://api.geonames.org/wikipediaBoundingBoxJSON?north=${ausschnitt.n}&south=${ausschnitt.s}&east=${ausschnitt.e}&west=${ausschnitt.w}&username=webmapping&style=full&maxRows=5&lang=de`; //maxRows=5 nur 5 Artikel werden angezeigt, lang=de deutscher Artikel
+
+    //Json-Artikel laden
+    wikipediaArtikelLaden(geonamesUrl);
+});
+
 karte.setView([48.208333, 16.373056], 12);
 
 // die Implementierung der Karte startet hier
@@ -76,11 +118,10 @@ const url = ' https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&v
 
 //Marker anders gestalten
 function makeMarker(feature, latlng) {
-    const fotoicon = L.icon(
-        {
-            iconUrl: 'http://www.data.wien.gv.at/icons/sehenswuerdigogd.svg',
-            iconSize: [16,16]
-        });
+    const fotoicon = L.icon({
+        iconUrl: 'http://www.data.wien.gv.at/icons/sehenswuerdigogd.svg',
+        iconSize: [16, 16]
+    });
     const sightMarker = L.marker(latlng, {
         icon: fotoicon //Marker ein icon geben sonst normaler blauer Standardmarker
     });
@@ -134,7 +175,7 @@ function linienPopup(feature, layer) {
     const popup = `
     <h3>${feature.properties.NAME}</h3>
     `;
-    layer.bindPopup(popup); 
+    layer.bindPopup(popup);
 }
 
 async function loadWege(wegeUrl) {
@@ -142,7 +183,7 @@ async function loadWege(wegeUrl) {
     const wegeData = await response.json();
     const wegeJson = L.geoJson(wegeData, {
         //Wegenetz grün färben
-        style: function() {
+        style: function () {
             return {
                 color: "green"
             };
@@ -154,11 +195,3 @@ async function loadWege(wegeUrl) {
     layerControl.addOverlay(wegeJson, "Spazierwege");
 }
 loadWege(wege);
-
-//Wikipedia Artikel einbauen
-
-//http://api.geonames.org/wikipediaBoundingBox?north=44.1&south=-9.9&east=-22.4&west=55.2&username=webmapping&style=full
-
-karte.on("load", function() {
-    console.log("Karte geladen")
-});

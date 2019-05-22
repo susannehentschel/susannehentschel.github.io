@@ -72,9 +72,9 @@ L.control.layers({
     "Geoland basemap Orthofoto 30cm": kartenLayer.bmaporthofoto30cm,
     "Geoland basemap Gelände": kartenLayer.bmapgelaende,
     "Geoland basemap Oberfläche": kartenLayer.bmapoberflaeche,
-    "Stamen Toner" : kartenLayer.stamen_toner,
-    "Stamen Terrain" : kartenLayer.stamen_terrain,
-    "Stamen Watercolor" : kartenLayer.stamen_watercolor
+    "Stamen Toner": kartenLayer.stamen_toner,
+    "Stamen Terrain": kartenLayer.stamen_terrain,
+    "Stamen Watercolor": kartenLayer.stamen_watercolor
 }).addTo(karte);
 
 kartenLayer.osm.addTo(karte);
@@ -122,6 +122,18 @@ var hash = new L.Hash(karte);
 //Mit Mausklick Koordinaten anzeigen lassen
 var coords = new L.Control.Coordinates();
 coords.addTo(karte);
-karte.on('click', function(e) {
-	coords.setCoordinates(e);
+karte.on('click', function (e) {
+    coords.setCoordinates(e);
 });
+
+//gpx Track laden - kann nur bei firefox geladen werden
+new L.GPX("AdlerwegEtappe03.gpx", {
+    async: true,
+    marker_options: {
+        startIconUrl: 'images/pin-icon-start.png',
+        endIconUrl: 'images/pin-icon-end.png',
+        shadowUrl: 'images/pin-shadow.png'
+    }
+}).on('loaded', function (e) {
+    karte.fitBounds(e.target.getBounds());
+}).addTo(karte);

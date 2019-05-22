@@ -136,4 +136,51 @@ new L.GPX("AdlerwegEtappe03.gpx", {
     }
 }).on('loaded', function (e) {
     karte.fitBounds(e.target.getBounds()); //Kartenausschnitt wird auf Track gesetzt
-}).addTo(karte);
+}).on('addline', function (e) {
+    console.log('linie geladen')
+    //Höhenprofil aufrufen
+    const controlElevation = L.control.elevation({
+        //position: "bottomright",
+        //collapsed: true,
+        detachedView: true,
+        elevationDiv: "#elevation-div",
+    });
+    controlElevation.addTo(karte);
+    controlElevation.addData(e.line);
+    const gpxLinie = e.line.getLatLngs();
+    for (let i = 1; i < gpxLinie.length; i += 1) {
+        //letzten und aktuellen Punkt definieren
+        let p1 = gpxLinie[i - 1];
+        let p2 = gpxLinie[i];
+
+        //Distanz anzeigen lassen zwischen 2 Punkten
+        let dist = karte.distance(
+            [p1.lat, p1.lng],
+            [p2.lat, p2.lng],
+        );
+
+        // Höhendifferenz zwischen zwei Punkten anzeigen
+        let delta = (p2.meta.ele - p1.meta.ele);
+
+        //Höhenunterschied berechnen
+        let proz = (dist != 0 ? delta / dist * 100.0 : 0).toFixed(1);
+
+        let farbe =
+            proz >= 10 ? "#d73027" :
+            proz >= 6 ? "#fc8d59" :
+            proz >= 2 ? "#fee08b" :
+            proz >= 0 ? "#ffffbf" :
+            proz >= -6 ? "#d9ef8b" :
+            proz >= -10 ? "#91cf60" :
+            "#1a9850";
+
+        L.polyline (
+            [
+                [p1.lat, p1.lng],
+            [p2.lat, p2.lng], 
+            ], {
+                color : farbe,
+            }
+        ).addTo(karte);
+    }
+});

@@ -71,6 +71,7 @@ karte.addControl(new L.Control.Fullscreen());
 const wikipediaGruppe = L.featureGroup().addTo(karte); //FeatureGruop damit Gesamtgruppe an Kontrolleiste geheftet werden kann 
 layerControl.addOverlay(wikipediaGruppe, "Wikipedia Artikel");
 async function wikipediaArtikelLaden(url) {
+    wikipediaGruppe.clearLayers(); //bestehende Layer löschen, damit maximal 50(eingestellt) Artikel zu sehen sind
     console.log("Laden", url);
 
     const response = await fetch(url);
@@ -95,7 +96,7 @@ async function wikipediaArtikelLaden(url) {
     `);
     }
 }
-
+let letzteGeonamesUrl = null;
 karte.on("load zoomend moveend", function () {
     let ausschnitt = {
         n: karte.getBounds().getNorth(),
@@ -103,10 +104,15 @@ karte.on("load zoomend moveend", function () {
         e: karte.getBounds().getEast(),
         w: karte.getBounds().getWest(),
     }
-    const geonamesUrl = `http://api.geonames.org/wikipediaBoundingBoxJSON?north=${ausschnitt.n}&south=${ausschnitt.s}&east=${ausschnitt.e}&west=${ausschnitt.w}&username=webmapping&style=full&maxRows=5&lang=de`; //maxRows=5 nur 5 Artikel werden angezeigt, lang=de deutscher Artikel
+    const geonamesUrl = `http://api.geonames.org/wikipediaBoundingBoxJSON?north=${ausschnitt.n}&south=${ausschnitt.s}&east=${ausschnitt.e}&west=${ausschnitt.w}&username=webmapping&style=full&maxRows=50&lang=de`; //maxRows=50 nur 50 Artikel werden angezeigt, lang=de deutscher Artikel
 
-    //Json-Artikel laden
-    wikipediaArtikelLaden(geonamesUrl);
+    //if Abfrage damit Artikel nicht immer neu geladen werden, sondern nur neue hizugefügt werden, wenn gezoomt wird
+    if (geonamesUrl != letzteGeonamesUrl) {
+        //Json-Artikel laden, Url abholen, der vorher festgelegt wurde
+        wikipediaArtikelLaden(geonamesUrl);
+        letzteGeonamesUrl = geonamesUrl;
+    }
+
 });
 
 karte.setView([48.208333, 16.373056], 12);

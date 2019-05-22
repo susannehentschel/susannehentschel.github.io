@@ -135,5 +135,5 @@ new L.GPX("AdlerwegEtappe03.gpx", {
         shadowUrl: 'images/pin-shadow.png'
     }
 }).on('loaded', function (e) {
-    karte.fitBounds(e.target.getBounds());
+    karte.fitBounds(e.target.getBounds()); //Kartenausschnitt wird auf Track gesetzt
 }).addTo(karte);

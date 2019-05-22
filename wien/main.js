@@ -154,3 +154,11 @@ async function loadWege(wegeUrl) {
     layerControl.addOverlay(wegeJson, "Spazierwege");
 }
 loadWege(wege);
+
+//Wikipedia Artikel einbauen
+
+//http://api.geonames.org/wikipediaBoundingBox?north=44.1&south=-9.9&east=-22.4&west=55.2&username=webmapping&style=full
+
+karte.on("load", function() {
+    console.log("Karte geladen")
+});

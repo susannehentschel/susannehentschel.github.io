@@ -104,8 +104,8 @@ karte.on("load zoomend moveend", function () {
         e: karte.getBounds().getEast(),
         w: karte.getBounds().getWest(),
     }
-    const geonamesUrl = `http://api.geonames.org/wikipediaBoundingBoxJSON?north=${ausschnitt.n}&south=${ausschnitt.s}&east=${ausschnitt.e}&west=${ausschnitt.w}&username=webmapping&style=full&maxRows=50&lang=de`; //maxRows=50 nur 50 Artikel werden angezeigt, lang=de deutscher Artikel
-
+    const geonamesUrl = `https://secure.geonames.org/wikipediaBoundingBoxJSON?north=${ausschnitt.n}&south=${ausschnitt.s}&east=${ausschnitt.e}&west=${ausschnitt.w}&username=demo&style=full&maxRows=50&lang=de`; //maxRows=50 nur 50 Artikel werden angezeigt, lang=de deutscher Artikel
+    
     //if Abfrage damit Artikel nicht immer neu geladen werden, sondern nur neue hizugefügt werden, wenn gezoomt wird
     if (geonamesUrl != letzteGeonamesUrl) {
         //Json-Artikel laden, Url abholen, der vorher festgelegt wurde
